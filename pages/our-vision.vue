@@ -1,22 +1,20 @@
 <template>
-    <div class="container">
-        <div class="space-y-4">
-            <h1 class="text-4xl font-bold text-center">
-                A new type of organization needs <br />
-                a new types of data analytics
-            </h1>
-            <p class="text-base text-center">
-                Instead of vanity metrics we assess the underlying <br />
-                causes driving a <b>community's health</b>
-            </p>
-        </div>
+  <div class="tc-our-vision__header min-h-screen">
+    <div class="container pt-2 pb-12">
+      <row-one />
+      <main-section />
     </div>
+    <row-five />
+  </div>
 </template>
 
 <script>
-export default {};
+import RowFive from "~~/components/pages/homepage/RowFive.vue";
+import MainSection from "~~/components/pages/ourVision/mainSection.vue";
+import RowOne from "~~/components/pages/ourVision/rowOne.vue";
+export default {
+  components: { RowOne, MainSection, RowFive },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

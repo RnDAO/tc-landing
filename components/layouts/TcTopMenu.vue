@@ -1,7 +1,9 @@
 <template>
   <div class="bg-white shadow-xl">
     <div class="container h-[60px] mx-auto flex flex-row justify-between items-center">
-      <img src="@/static/icons/tc-logo.svg" class="bg-cover" alt="" />
+      <NuxtLink to="/">
+        <img src="@/static/icons/tc-logo.svg" class="bg-cover" alt="" />
+      </NuxtLink>
       <div class="flex flex-row gap-x-12 items-center">
         <ul class="flex flex-row gap-5">
           <li v-for="(item, index) in menuListItems" :key="index" class="hover:bg-background-gray rounded-[8px] py-2 px-3">

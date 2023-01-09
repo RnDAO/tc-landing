@@ -9,7 +9,7 @@
     </button>
     <button
       v-else-if="props.buttonType === 'outlined'"
-      class="border border-black h-[34px] w-[100px] text-black rounded-[8px]"
+      class="border border-black h-[34px] w-[100px] rounded-[8px]"
       :class="[customClasses ? customClasses : '']"
     >
       {{ props.label }}
