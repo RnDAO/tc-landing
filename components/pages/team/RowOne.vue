@@ -5,7 +5,7 @@
             We are an international <b>DAO team</b> of data <br />
             scientists and Web3 enthusiasts
         </p>
-        <div class="bg-white shadow-box my-4 rounded-box">
+        <div class="bg-white shadow-2xl my-4 rounded-box">
             dasdqwd
         </div>
     </div>

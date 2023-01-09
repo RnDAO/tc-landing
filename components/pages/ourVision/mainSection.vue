@@ -1,6 +1,6 @@
 <template>
     <div class="space-y-4 mt-12">
-        <div class="bg-white shadow-box rounded-box overflow-hidden">
+        <div class="bg-white shadow-2xl rounded-box overflow-hidden">
             <div class="flex justify-between items-center pl-12">
                 <div class="space-y-4">
                     <h3 class="text-2xl font-bold">
@@ -29,7 +29,7 @@
                 <img src="@/static/globe.svg" alt="" />
             </div>
         </div>
-        <div class="bg-warning-30 shadow-box rounded-box overflow-hidden">
+        <div class="bg-warning-30 shadow-2xl rounded-box overflow-hidden">
             <div class="flex justify-between items-center px-12 py-12">
                 <img src="@/static/methodogy.svg" alt="" />
                 <div class="space-y-4">
@@ -55,7 +55,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-white shadow-box rounded-box overflow-hidden">
+        <div class="bg-white shadow-2xl rounded-box overflow-hidden">
             <div class="flex justify-between items-center px-12 py-2">
                 <div class="space-y-4">
                     <h3 class="text-2xl font-bold">Powerful yet easy to implement</h3>
