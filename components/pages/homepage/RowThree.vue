@@ -5,7 +5,10 @@
     </h3>
     <div class="space-y-4">
       <div class="flex flex-row justify-between space-x-4">
-        <div class="w-1/2 shadow-2xl bg-white p-5 rounded-box">
+        <div
+          class="w-1/2 shadow-2xl bg-white p-5 rounded-box"
+          data-aos="fade-up"
+        >
           <h5 class="font-bold text-2xl">
             Spot value-adding members <br />
             in your community
@@ -14,7 +17,10 @@
             <img src="@/static/icons/members.svg" alt="" />
           </div>
         </div>
-        <div class="w-1/2 shadow-2xl text-white bg-primary p-5 rounded-box">
+        <div
+          class="w-1/2 shadow-2xl text-white bg-primary p-5 rounded-box"
+          data-aos="fade-up"
+        >
           <h5 class="font-bold text-2xl">Use data to improve onboarding</h5>
           <div class="relative float-left top-12">
             <img src="@/static/icons/graph.svg" alt="" />
@@ -24,6 +30,7 @@
       <div class="flex flex-row justify-between space-x-4">
         <div
           class="w-full flex flex-col shadow-2xl bg-warning-30 p-5 rounded-box"
+          data-aos="fade-up"
         >
           <h5 class="font-bold text-white text-2xl">Explore all the metrics</h5>
           <p class="text-base text-white">
@@ -46,7 +53,10 @@
         </div>
       </div>
       <div class="flex flex-row justify-between space-x-4">
-        <div class="w-1/2 shadow-2xl bg-secondary p-5 rounded-box overflow-hidden">
+        <div
+          class="w-1/2 shadow-2xl bg-secondary p-5 rounded-box overflow-hidden"
+          data-aos="fade-up"
+        >
           <h5 class="font-bold text-2xl">
             Monitor members who <br />
             disengage
@@ -56,10 +66,11 @@
             <img src="@/static/icons/arrowdown.svg" alt="" />
           </div>
         </div>
-        <div class="w-1/2 shadow-2xl bg-white overflow-hidden p-5 rounded-box">
-          <h5 class="font-bold text-2xl">
-            Benchmark your metrics
-          </h5>
+        <div
+          class="w-1/2 shadow-2xl bg-white overflow-hidden p-5 rounded-box"
+          data-aos="fade-up"
+        >
+          <h5 class="font-bold text-2xl">Benchmark your metrics</h5>
           <p class="text-base">Learn from others</p>
           <div class="relative float-right top-8">
             <img src="@/static/icons/dao.svg" alt="" />

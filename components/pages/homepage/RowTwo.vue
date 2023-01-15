@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white shadow-lg rounded-box py-12 pl-10 mt-[11rem]">
+  <div class="bg-white shadow-lg rounded-box py-12 pl-10 mt-[11rem]" data-aos="fade-up">
     <div class="flex flex-row justify-between items-center">
       <div class="space-y-6">
         <h3 class="text-2xl font-bold">

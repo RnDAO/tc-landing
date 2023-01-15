@@ -1,5 +1,5 @@
 <template>
-    <div class="space-y-4 pt-12">
+    <div class="space-y-4 pt-12" data-aos="fade-up">
         <h1 class="text-4xl font-bold text-center">
             A new type of organization needs <br />
             a new types of data analytics

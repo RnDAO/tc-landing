@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row justify-between mt-14">
+  <div class="flex flex-row justify-between mt-14" data-aos="fade-up">
     <div>
       <h6 class="text-2xl text-left font-bold my-8">Don't like waiting?</h6>
       <p class="text-base">

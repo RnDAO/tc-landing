@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white pt-12 pb-8 shadow-inner">
+  <div class="bg-white pt-12 pb-8 shadow-inner" data-aos="fade-down">
     <div class="container">
       <h3 class="text-2xl font-bold text-center">Our clients and supporters</h3>
       <div class="space-y-4 mt-8">
@@ -16,9 +16,7 @@
           <img src="@/static/icons/MetaGame.svg" alt="" />
         </div>
       </div>
-      <p class="text-center text-sm mt-6">
-        Powered by RnDAO
-      </p>
+      <p class="text-center text-sm mt-6">Powered by RnDAO</p>
     </div>
   </div>
 </template>

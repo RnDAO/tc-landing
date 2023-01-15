@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w-7/12 mx-auto space-y-14 relative top-[8rem]">
+    <div class="w-7/12 mx-auto space-y-14 relative top-[8rem]" data-aos="fade-up">
       <h1 class="text-4xl font-bold text-center">
         Community health insights <br />
         for Web 3
