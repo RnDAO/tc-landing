@@ -1,10 +1,12 @@
 <template>
-  <div class="tc-our-vision__header min-h-screen">
-    <div class="container pt-2 pb-12">
-      <row-one />
-      <main-section />
+  <div class="tc-our-vision_bg min-h-screen">
+    <div class="tc-our-vision__header" data-aos="fade-up">
+      <div class="container pt-4 pb-12">
+        <row-one />
+        <main-section />
+      </div>
+      <row-five />
     </div>
-    <row-five />
   </div>
 </template>
 

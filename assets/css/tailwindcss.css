@@ -14,14 +14,16 @@
   background-size: auto;
 }
 
+.tc-our-vision_bg{
+  background: linear-gradient(180deg,
+  #f5f5f5 0%,
+  #f5f5f5 79.34%,
+  rgba(245, 245, 245, 0) 100%);
+}
 .tc-our-vision__header {
   background: url("~/static/graph-left-bg.svg") no-repeat,
-    url("~/static/graph-right-bg.svg") no-repeat,
-    linear-gradient(180deg,
-      #f5f5f5 0%,
-      #f5f5f5 79.34%,
-      rgba(245, 245, 245, 0) 100%);
-  background-position: top left, top right;
+    url("~/static/graph-right-bg.svg") no-repeat;
+  background-position: top 8.5rem left, top 5rem right;
   background-size: contain, contain;
   background-size: auto;
 }
