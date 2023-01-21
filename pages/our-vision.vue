@@ -1,7 +1,7 @@
 <template>
   <div class="tc-our-vision_bg min-h-screen">
     <div class="tc-our-vision__header" data-aos="fade-up">
-      <div class="container pt-4 pb-12">
+      <div class="container px-3 md:px-0 pt-4 pb-12">
         <row-one />
         <main-section />
       </div>

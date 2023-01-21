@@ -8,7 +8,8 @@ module.exports = {
   ],
   theme: {
     borderRadius:{
-      box:'14px'
+      box:'14px',
+      'full': '9999px',
     },
     extend: {
       colors: {

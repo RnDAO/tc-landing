@@ -1,6 +1,7 @@
 <template>
   <div>
-    <tc-top-menu />
+    <tc-top-menu class="hidden md:block" />
+    <tc-top-menu-xs class="block md:hidden"/>
     <slot />
     <tc-footer />
   </div>
@@ -8,9 +9,10 @@
 
 <script>
 import TcTopMenu from "~/components/layouts/TcTopMenu.vue";
+import TcTopMenuXs from "~/components/layouts/TcTopMenuXs.vue";
 import TcFooter from "~~/components/layouts/TcFooter.vue";
 export default {
-  components: { TcTopMenu, TcFooter },
+  components: { TcTopMenu, TcFooter, TcTopMenuXs },
 };
 </script>
 

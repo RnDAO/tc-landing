@@ -30,6 +30,9 @@ const props = defineProps({
     type: String,
     default: "contained",
   },
+  to:{
+
+  },
   label: {
     type: String,
     default: "",

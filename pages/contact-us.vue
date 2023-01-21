@@ -1,7 +1,9 @@
 <template>
   <div>
-    <div class="container py-8">
-      <h1 class="text-4xl font-bold text-center mb-8">Contact us</h1>
+    <div class="container py-14 md:py-8">
+      <h1 class="text-4xl font-bold text-center mt-12 md:mt-0 mb-8">
+        Contact us
+      </h1>
       <div class="space-y-4">
         <div class="bg-white shadow-2xl rounded-box overflow-hidden">
           <div class="flex justify-center items-center px-12 py-8">
@@ -10,17 +12,57 @@
                 Get in touch with us
               </h3>
               <p class="text-center text-primary">rndao.email@gmail.com</p>
-              <div class="flex flex-row space-x-12">
-                <div>telegram</div>
-                <div>telegram</div>
-                <div>telegram</div>
-                <div>telegram</div>
+              <div class="flex flex-row flex-wrap space-y-2 md:space-y-0 md:space-x-12 md:py-10">
+                <div class="w-1/2 text-center flex flex-col justify-center md:w-auto">
+                  <img
+                    src="@/static/telegram.svg"
+                    class="object-contain mx-auto"
+                    height="30px"
+                    width="30px"
+                    alt="telegram-icon"
+                  />
+                  <p class="font-bold">Telegram</p>
+                  <span class="text-sm"> Community Health </span>
+                </div>
+                <div class="w-1/2 text-center flex flex-col justify-center md:w-auto">
+                  <img
+                    src="@/static/twitter.svg"
+                    class="object-contain mx-auto pb-1"
+                    height="30px"
+                    width="30px"
+                    alt="twitter-icon"
+                  />
+                  <p class="font-bold">Twitter</p>
+                  <span class="text-sm"> RnDAO </span>
+                </div>
+                <div class="w-1/2 text-center flex flex-col justify-center md:w-auto">
+                  <img
+                    src="@/static/discord.svg"
+                    class="object-contain mx-auto pb-2"
+                    height="30px"
+                    width="30px"
+                    alt="discord-icon"
+                  />
+                  <p class="font-bold">Discord</p>
+                  <span class="text-sm"> RnDAO </span>
+                </div>
+                <div class="w-1/2 text-center flex flex-col justify-center md:w-auto">
+                  <img
+                    src="@/static/mirror.svg"
+                    class="object-contain mx-auto"
+                    height="30px"
+                    width="30px"
+                    alt="mirror-icon"
+                  />
+                  <p class="font-bold">Mirror</p>
+                  <span class="text-sm"> RnDAO </span>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="bg-white shadow-2xl rounded-box overflow-hidden">
-          <div class="flex justify-center items-center px-12 py-8">
+          <div class="flex justify-center items-center px-12 py-12">
             <div class="space-y-4">
               <div class="flex flex-row justify-center space-x-4">
                 <img src="@/static/tc-logo-sm-purple.svg" alt="" />
@@ -44,7 +86,9 @@
               <h3 class="text-2xl font-bold text-white text-center">
                 Schedule a Demo
               </h3>
-              <div class="flex flex-row justify-around items-center space-x-8">
+              <div
+                class="flex flex-col-reverse md:flex-row justify-around items-center space-x-8"
+              >
                 <img src="@/static/schedule.svg" alt="" />
                 <div class="space-y-8">
                   <p class="text-white text-base">

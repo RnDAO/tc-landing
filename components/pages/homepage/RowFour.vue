@@ -1,17 +1,20 @@
 <template>
-  <div class="flex flex-row justify-between mt-14" data-aos="fade-up">
+  <div
+    class="flex flex-col md:flex-row justify-between md:mt-14 p-3 md:p-0"
+    data-aos="fade-up"
+  >
     <div>
-      <h6 class="text-2xl text-left font-bold my-8">Don't like waiting?</h6>
+      <h6 class="text-2xl text-left font-bold md:my-8">Don't like waiting?</h6>
       <p class="text-base">
-        Join us now as an early-adopter community and receive <br />
+        Join us now as an early-adopter community and receive <br class="hidden md:block" />
         a detailed Community Health Report!
       </p>
       <tc-button
         label="Schedule a Demo"
         class="mt-8"
-        custom-classes="h-[48px] w-[240px]"
+        custom-classes="h-[48px] w-full md:w-[240px]"
       />
-      <div class="space-y-4 mt-12 w-5/6">
+      <div class="space-y-4 mt-8 md:mt-12 md:w-5/6">
         <p class="text-base font-bold">
           With the Community Health Report, we understood the overall feeling of
           our members towards our community. It helped us recognize the
@@ -23,13 +26,11 @@
         </p>
       </div>
       <div class="flex flex-row mt-4">
-        <p class="text-sm">
-          Incandenza, Community Guild & Core Contributor at 
-        </p>
-        <img src="@/static/icons/aragorn-sm.svg" alt="">
+        <p class="text-sm">Incandenza, Community Guild & Core Contributor at</p>
+        <img src="@/static/icons/aragorn-sm.svg" alt="" />
       </div>
     </div>
-    <img src="@/static/icons/dashboard-overview.svg" alt="" />
+    <img class="hidden md:block" src="@/static/icons/dashboard-overview.svg" alt="" />
   </div>
 </template>
 
