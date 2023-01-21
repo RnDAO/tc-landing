@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white shadow-xl">
+  <div class="bg-white shadow-xl z-50">
     <div class="container h-[60px] mx-auto flex flex-row justify-between items-center">
       <NuxtLink to="/">
         <img src="@/static/icons/tc-logo.svg" class="bg-cover" alt="" />
