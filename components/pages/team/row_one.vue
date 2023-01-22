@@ -19,7 +19,7 @@
 
 <script setup>
 import teamMembers from "@/utils/teamMembers";
-import ProfileCard from "./ProfileCard.vue";
+import ProfileCard from "./profile_card.vue";
 
 const team = teamMembers;
 </script>

@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import TcTopMenu from "~/components/layouts/TcTopMenu.vue";
-import TcTopMenuXs from "~/components/layouts/TcTopMenuXs.vue";
-import TcFooter from "~~/components/layouts/TcFooter.vue";
+import TcTopMenu from "~/components/layouts/tc_topMenu.vue";
+import TcTopMenuXs from "~/components/layouts/tc_topMenuXs.vue";
+import TcFooter from "~~/components/layouts/tc_footer.vue";
 export default {
   components: { TcTopMenu, TcFooter, TcTopMenuXs },
 };
