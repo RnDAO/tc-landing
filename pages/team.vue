@@ -8,8 +8,8 @@
 </template>
 
 <script setup>
-import FooterSection from "~~/components/pages/team/FooterSection.vue";
-import RowOne from "~~/components/pages/team/RowOne.vue";
+import FooterSection from "~~/components/pages/team/footerSection.vue";
+import RowOne from "~~/components/pages/team/rowOne.vue";
 useHead({
   titleTemplate: "%s - ToghetherCrew",
   titleTemplate: () => {
