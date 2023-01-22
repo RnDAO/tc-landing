@@ -20,7 +20,12 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       dashboardUrl: process.env.NUXT_PUBLIC_DASHBOARD_REDIRECT_LINK,
-      calendarUrl:process.env.NUXT_PUBLIC_CALENDAR
+      calendarUrl: process.env.NUXT_PUBLIC_CALENDAR,
+      discord: process.env.NUXT_PUBLIC_DISCORD,
+      mirror: process.env.NUXT_PUBLIC_MIRROR,
+      telegram: process.env.NUXT_PUBLIC_TELEGRAM,
+      twitter: process.env.NUXT_PUBLIC_TWITTER,
+      researchUrl: process.env.NUXT_PUBLIC_RNDAO_RESEARCH,
     },
   },
 });

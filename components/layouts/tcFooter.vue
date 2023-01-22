@@ -9,12 +9,27 @@
         >
           <div class="flex flex-row justify-between w-3/4 md:w-2/6">
             <ul class="md:w-1/2 space-y-3">
-              <li class="text-sm md:text-base text-tc-light">Our Vision</li>
-              <li class="text-sm md:text-base text-tc-light">Team</li>
+              <li
+                class="cursor-pointer text-sm md:text-base text-tc-light"
+                @click="redirect('/our-vision')"
+              >
+                Our Vision
+              </li>
+              <li
+                class="cursor-pointer text-sm md:text-base text-tc-light"
+                @click="redirect('/team')"
+              >
+                Team
+              </li>
             </ul>
             <ul class="md:w-1/2 space-y-3">
-              <li class="text-sm md:text-base text-tc-light">Contact</li>
-              <li class="text-sm md:text-base text-tc-light">
+              <li
+                class="cursor-pointer text-sm md:text-base text-tc-light"
+                @click="redirect('/contact-us')"
+              >
+                Contact
+              </li>
+              <li class="cursor-pointer text-sm md:text-base text-tc-light">
                 Privacy & Teams
               </li>
             </ul>
@@ -41,16 +56,16 @@
           <div class="md:w-1/6 space-y-3 mt-5 md:mt-0 md:space-y-3 text-center">
             <p class="text-sm md:text-base text-tc-light">Follow us</p>
             <ul class="flex flex-row justify-between space-x-5 md:space-x-0">
-              <li>
+              <li @click="redirectSocialMedia('telegram')">
                 <img src="@/static/telegram-white.svg" alt="" />
               </li>
-              <li>
+              <li @click="redirectSocialMedia('twitter')">
                 <img src="@/static/twitter-white.svg" alt="" />
               </li>
-              <li>
+              <li @click="redirectSocialMedia('discord')">
                 <img src="@/static/discord-white.svg" alt="" />
               </li>
-              <li>
+              <li @click="redirectSocialMedia('mirror')">
                 <img src="@/static/mirror-white.svg" alt="" />
               </li>
             </ul>
@@ -73,6 +88,29 @@ const config = useRuntimeConfig();
 
 function redirectToCalendar() {
   location.replace(config.public.calendarUrl);
+}
+function redirect(route) {
+  const router = useRouter();
+  router.push(route);
+}
+
+function redirectSocialMedia(socialMedia) {
+  switch (socialMedia) {
+    case "telegram":
+      location.replace(config.public.telegram);
+      break;
+    case "discord":
+      location.replace(config.public.discord);
+      break;
+    case "mirror":
+      location.replace(config.public.mirror);
+      break;
+    case "twitter":
+      location.replace(config.public.twitter);
+      break;
+    default:
+      break;
+  }
 }
 </script>
 

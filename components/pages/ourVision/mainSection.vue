@@ -119,9 +119,7 @@ function redirectToCalendar() {
   location.replace(config.public.calendarUrl);
 }
 function redirectToResearch() {
-  location.replace(
-    "https://rndao.mirror.xyz/F-SMj6p_jdYvrMMkR1d9Hd6YbEg39qItTKfjo-zkgqM"
-  );
+  location.replace(config.public.researchUrl);
 }
 </script>
 

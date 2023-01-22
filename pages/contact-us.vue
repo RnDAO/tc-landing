@@ -19,10 +19,11 @@
               </h3>
               <p class="text-center text-primary">rndao.email@gmail.com</p>
               <div
-                class="flex flex-row flex-wrap space-y-2 md:space-y-0 md:space-x-12 md:py-10"
+                class="flex flex-row flex-wrap space-y-2 md:space-y-0 md:space-x-14 md:py-10"
               >
                 <div
-                  class="w-1/2 text-center flex flex-col justify-center md:w-auto"
+                  class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
+                  @click="redirect('telegram')"
                 >
                   <img
                     src="@/static/telegram.svg"
@@ -35,7 +36,8 @@
                   <span class="text-sm"> Community Health </span>
                 </div>
                 <div
-                  class="w-1/2 text-center flex flex-col justify-center md:w-auto"
+                  class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
+                  @click="redirect('twitter')"
                 >
                   <img
                     src="@/static/twitter.svg"
@@ -48,7 +50,8 @@
                   <span class="text-sm"> RnDAO </span>
                 </div>
                 <div
-                  class="w-1/2 text-center flex flex-col justify-center md:w-auto"
+                  class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
+                  @click="redirect('discord')"
                 >
                   <img
                     src="@/static/discord.svg"
@@ -61,7 +64,8 @@
                   <span class="text-sm"> RnDAO </span>
                 </div>
                 <div
-                  class="w-1/2 text-center flex flex-col justify-center md:w-auto"
+                  class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
+                  @click="redirect('mirror')"
                 >
                   <img
                     src="@/static/mirror.svg"
@@ -150,6 +154,25 @@ const config = useRuntimeConfig();
 
 function redirectToCalendar() {
   location.replace(config.public.calendarUrl);
+}
+
+function redirect(socialMedia) {
+  switch (socialMedia) {
+    case "telegram":
+      location.replace(config.public.telegram);
+      break;
+    case "discord":
+      location.replace(config.public.discord);
+      break;
+    case "mirror":
+      location.replace(config.public.mirror);
+      break;
+    case "twitter":
+      location.replace(config.public.twitter);
+      break;
+    default:
+      break;
+  }
 }
 </script>
 
