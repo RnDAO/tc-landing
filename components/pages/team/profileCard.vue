@@ -11,7 +11,9 @@
           {{ props.teamMember.stack }}
         </p>
       </div>
-      <img src="~~/static/team/ashish.webp" alt="" />
+      <div class="relative overflow-hidden before:absolute">
+        <img src="~~/static/team/ashish.webp" class="w-full" alt="" />
+      </div>
     </div>
   </div>
 </template>
