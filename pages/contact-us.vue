@@ -133,8 +133,13 @@
   </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+useHead({
+  titleTemplate: "%s - ToghetherCrew",
+  titleTemplate: () => {
+    return "Contact Us | ToghetherCrew";
+  },
+});
 </script>
 
 <style></style>

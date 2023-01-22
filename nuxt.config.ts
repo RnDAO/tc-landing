@@ -2,15 +2,6 @@ import { defineNuxtConfig } from "nuxt/config";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  app: {
-    head: {
-      titleTemplate: '%s | TOGHETHERCREW',
-      title: 'TOGHETHERCREW',
-      htmlAttrs: {
-          lang: 'en',
-      },
-    },
-  },
   postcss: {
     plugins: {
       tailwindcss: {},

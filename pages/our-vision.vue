@@ -10,13 +10,16 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import RowFive from "~~/components/pages/homepage/RowFive.vue";
 import MainSection from "~~/components/pages/ourVision/MainSection.vue";
 import RowOne from "~~/components/pages/ourVision/RowOne.vue";
-export default {
-  components: { RowOne, MainSection, RowFive },
-};
+useHead({
+  titleTemplate: "%s - ToghetherCrew",
+  titleTemplate: () => {
+    return "Our vision | ToghetherCrew";
+  },
+});
 </script>
 
 <style></style>

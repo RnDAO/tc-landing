@@ -14,17 +14,18 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import RowFive from "~/components/pages/homepage/RowFive.vue";
 import RowFour from "~/components/pages/homepage/RowFour.vue";
 import RowOne from "~/components/pages/homepage/RowOne.vue";
 import RowThree from "~/components/pages/homepage/RowThree.vue";
 import RowTwo from "~/components/pages/homepage/RowTwo.vue";
-export default {
-  components: { RowOne, RowTwo, RowThree, RowFour, RowFive },
-};
+useHead({
+  titleTemplate: "%s - ToghetherCrew",
+  titleTemplate: () => {
+    return "Home | ToghetherCrew";
+  },
+});
 </script>
 
-<style>
-
-</style>
+<style></style>

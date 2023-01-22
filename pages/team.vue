@@ -3,18 +3,19 @@
     <div class="container">
       <row-one />
     </div>
-    <footer-section/>
+    <footer-section />
   </div>
 </template>
 
-<script>
-import FooterSection from '~~/components/pages/team/FooterSection.vue';
+<script setup>
+import FooterSection from "~~/components/pages/team/FooterSection.vue";
 import RowOne from "~~/components/pages/team/RowOne.vue";
-export default {
-  components: { RowOne, FooterSection },
-};
+useHead({
+  titleTemplate: "%s - ToghetherCrew",
+  titleTemplate: () => {
+    return "Team | ToghetherCrew";
+  },
+});
 </script>
 
-<style>
-
-</style>
+<style></style>
