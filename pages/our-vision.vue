@@ -12,7 +12,7 @@
 
 <script setup>
 import RowFive from "~~/components/pages/homepage/RowFive.vue";
-import MainSection from "~/components/pages/ourVision/MainSection.vue";
+import MainSection from "~/components/pages/ourVision/mainSection.vue";
 import RowOne from "~~/components/pages/ourVision/RowOne.vue";
 useHead({
   titleTemplate: "%s - ToghetherCrew",
