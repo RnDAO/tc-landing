@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import TcDrawer from "../tc_drawer.vue";
+import TcDrawer from "~/components/tcDrawer.vue";
 import menuListItems from "~/utils/topMenuList";
 
 export default {

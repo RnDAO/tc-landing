@@ -15,11 +15,11 @@
 </template>
 
 <script setup>
-import RowFive from "~/components/pages/homepage/row_five.vue";
-import RowFour from "~/components/pages/homepage/row_four.vue";
-import RowOne from "~/components/pages/homepage/row_one.vue";
-import RowThree from "~/components/pages/homepage/row_three.vue";
-import RowTwo from "~/components/pages/homepage/row_two.vue";
+import RowOne from "~/components/pages/homepage/rowOne.vue";
+import RowTwo from "~/components/pages/homepage/rowTwo.vue";
+import RowThree from "~/components/pages/homepage/rowThree.vue";
+import RowFour from "~/components/pages/homepage/rowFour.vue";
+import RowFive from "~/components/pages/homepage/rowFive.vue";
 useHead({
   titleTemplate: "%s - ToghetherCrew",
   titleTemplate: () => {

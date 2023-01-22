@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import TcButton from "~~/components/tc_button.vue.js";
+import TcButton from "~~/components/tcButton.vue";
 import menuListItems from "~/utils/topMenuList";
 export default {
   components: { TcButton },
