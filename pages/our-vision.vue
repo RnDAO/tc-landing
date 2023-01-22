@@ -3,7 +3,7 @@
     <div class="tc-our-vision__header" data-aos="fade-up">
       <div class="container px-3 md:px-0 pt-4 pb-12">
         <row-one />
-        <main-section />
+        <!-- <main-section /> -->
       </div>
       <row-five />
     </div>
@@ -12,7 +12,7 @@
 
 <script setup>
 import RowFive from "~~/components/pages/homepage/RowFive.vue";
-import MainSection from "~~/components/pages/ourVision/MainSection.vue";
+// import MainSection from "~/components/pages/ourVision/MainSection.vue";
 import RowOne from "~~/components/pages/ourVision/RowOne.vue";
 useHead({
   titleTemplate: "%s - ToghetherCrew",
