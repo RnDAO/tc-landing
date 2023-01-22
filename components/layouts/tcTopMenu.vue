@@ -1,37 +1,55 @@
 <template>
   <div class="bg-white shadow-xl z-50">
-    <div class="container h-[60px] mx-auto flex flex-row justify-between items-center">
+    <div
+      class="container h-[60px] mx-auto flex flex-row justify-between items-center"
+    >
       <NuxtLink to="/">
         <img src="@/static/icons/tc-logo.svg" class="bg-cover" alt="" />
       </NuxtLink>
       <div class="flex flex-row gap-x-12 items-center">
         <ul class="flex flex-row gap-5">
-          <li v-for="(item, index) in menuListItems" :key="index" class="hover:bg-background-gray rounded-[8px] py-2 px-3">
+          <li
+            v-for="(item, index) in menuListItems"
+            :key="index"
+            class="hover:bg-background-gray rounded-[8px] py-2 px-3"
+          >
             <NuxtLink :to="item.path">
               {{ item.title }}
             </NuxtLink>
           </li>
         </ul>
         <div class="flex flex-row-reverse gap-3">
-          <tc-button label="Try now" />
-          <tc-button label="Log in" button-type="outlined" />
+          <tc-button
+            label="Try now"
+            v-on="{
+              click: () => {
+                redirectToDashboard();
+              },
+            }"
+          />
+          <tc-button
+            label="Log in"
+            button-type="outlined"
+            v-on="{
+              click: () => {
+                redirectToDashboard();
+              },
+            }"
+          />
         </div>
       </div>
     </div>
   </div>
 </template>
 
-<script>
+<script setup>
 import TcButton from "~~/components/tcButton.vue";
 import menuListItems from "~/utils/topMenuList";
-export default {
-  components: { TcButton },
-  data() {
-    return { menuListItems };
-  },
-};
+const config = useRuntimeConfig();
+
+function redirectToDashboard() {
+  location.replace(config.public.dashboardUrl);
+}
 </script>
 
-<style>
-
-</style>
+<style></style>

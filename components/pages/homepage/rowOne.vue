@@ -26,14 +26,22 @@
           label="Try now"
           class="mx-auto text-center"
           custom-classes="h-[48px] w-full md:w-[240px]"
+          v-on="{
+            click: () => {
+              redirectToDashboard();
+            },
+          }"
         />
       </div>
     </div>
   </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+const config = useRuntimeConfig();
+function redirectToDashboard() {
+  location.replace(config.public.dashboardUrl);
+}
 </script>
 
 <style></style>

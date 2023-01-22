@@ -29,6 +29,11 @@
                   label="Schedule a demo"
                   class="mx-auto text-center"
                   custom-classes="w-[154px] float-left"
+                  v-on="{
+                    click: () => {
+                      redirectToCalendar();
+                    },
+                  }"
                 />
               </div>
             </ul>
@@ -63,8 +68,12 @@
   </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+const config = useRuntimeConfig();
+
+function redirectToCalendar() {
+  location.replace(config.public.calendarUrl);
+}
 </script>
 
 <style></style>

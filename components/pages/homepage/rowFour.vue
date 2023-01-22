@@ -6,13 +6,19 @@
     <div>
       <h6 class="text-2xl text-left font-bold md:my-8">Don't like waiting?</h6>
       <p class="text-base">
-        Join us now as an early-adopter community and receive <br class="hidden md:block" />
+        Join us now as an early-adopter community and receive
+        <br class="hidden md:block" />
         a detailed Community Health Report!
       </p>
       <tc-button
         label="Schedule a Demo"
         class="mt-8"
         custom-classes="h-[48px] w-full md:w-[240px]"
+        v-on="{
+          click: () => {
+            redirectToCalendar();
+          },
+        }"
       />
       <div class="space-y-4 mt-8 md:mt-12 md:w-5/6">
         <p class="text-base font-bold">
@@ -30,12 +36,20 @@
         <img src="@/static/icons/aragorn-sm.svg" alt="" />
       </div>
     </div>
-    <img class="hidden md:block" src="@/static/icons/dashboard-overview.svg" alt="" />
+    <img
+      class="hidden md:block"
+      src="@/static/icons/dashboard-overview.svg"
+      alt=""
+    />
   </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+const config = useRuntimeConfig();
+
+function redirectToCalendar() {
+  location.replace(config.public.calendarUrl);
+}
 </script>
 
 <style></style>

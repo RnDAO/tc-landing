@@ -17,4 +17,10 @@ export default defineNuxtConfig({
     "~/plugins/font-awsome.js",
     { src: "@/plugins/aos", ssr: false, mode: "client" },
   ],
+  runtimeConfig: {
+    public: {
+      dashboardUrl: process.env.NUXT_PUBLIC_DASHBOARD_REDIRECT_LINK,
+      calendarUrl:process.env.NUXT_PUBLIC_CALENDAR
+    },
+  },
 });

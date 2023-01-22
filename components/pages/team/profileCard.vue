@@ -59,7 +59,7 @@
     <div class="relative p-2">
       <div class="mt-40">
         <div
-          class="transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0"
+          class="transition-all transform translate-y-12 opacity-0 group-hover:opacity-100 group-hover:translate-y-0"
         >
           <div class="p-2">
             <p class="text-black text-xl font-bold">

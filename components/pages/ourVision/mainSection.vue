@@ -65,6 +65,11 @@
             button-type="outlined"
             custom-classes="border-white text-white h-[48px] w-full md:w-[240px]"
             label="Read our research"
+            v-on="{
+              click: () => {
+                redirectToResearch();
+              },
+            }"
           />
         </div>
       </div>
@@ -94,6 +99,11 @@
             button-type="contained"
             custom-classes="h-[48px] w-full md:w-[240px] mt-8"
             label="Schedule a Demo"
+            v-on="{
+              click: () => {
+                redirectToCalendar();
+              },
+            }"
           />
         </div>
         <img src="@/static/network-graph.svg" alt="" />
@@ -102,8 +112,17 @@
   </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+const config = useRuntimeConfig();
+
+function redirectToCalendar() {
+  location.replace(config.public.calendarUrl);
+}
+function redirectToResearch() {
+  location.replace(
+    "https://rndao.mirror.xyz/F-SMj6p_jdYvrMMkR1d9Hd6YbEg39qItTKfjo-zkgqM"
+  );
+}
 </script>
 
 <style></style>

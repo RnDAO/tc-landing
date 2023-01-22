@@ -122,6 +122,11 @@
                     button-type="outlined"
                     custom-classes="h-[48px] w-[240px] border-white text-white"
                     label="Schedule a Demo"
+                    v-on="{
+                      click: () => {
+                        redirectToCalendar();
+                      },
+                    }"
                   />
                 </div>
               </div>
@@ -140,6 +145,12 @@ useHead({
     return "Contact Us | ToghetherCrew";
   },
 });
+
+const config = useRuntimeConfig();
+
+function redirectToCalendar() {
+  location.replace(config.public.calendarUrl);
+}
 </script>
 
 <style></style>
