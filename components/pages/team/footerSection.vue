@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-warning-30 shadow-inner">
+  <div class="bg-warning-30 shadow-inner py-8">
     <div class="container py-14 space-y-8 p-4 md:p-0">
       <h3 class="text-white text-2xl font-bold text-center">
         We operate as a DAO, join us!
