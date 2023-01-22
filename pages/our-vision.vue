@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-import RowFive from "~~/components/pages/homepage/RowFive.vue";
+import RowFive from "~~/components/pages/homepage/rowFive.vue";
 import MainSection from "~/components/pages/ourVision/mainSection.vue";
 import RowOne from "~~/components/pages/ourVision/rowOne.vue";
 useHead({
