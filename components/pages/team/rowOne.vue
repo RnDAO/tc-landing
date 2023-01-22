@@ -6,7 +6,7 @@
       scientists and Web3 enthusiasts
     </p>
     <div
-      class="bg-white shadow-2xl my-4 rounded-box flex flex-row flex-wrap gap-4 justify-center p-4"
+      class="bg-white shadow-2xl md:p-12 gap-4 m-3 md:m-0 rounded-box flex flex-row flex-wrap justify-center"
     >
       <profile-card
         v-for="(teamMember, index) in team"
@@ -19,7 +19,7 @@
 
 <script setup>
 import teamMembers from "@/utils/teamMembers";
-import ProfileCard from "./profileCard.vue";
+import ProfileCard from "@/components/pages/team/profileCard.vue";
 
 const team = teamMembers;
 </script>

@@ -3,7 +3,7 @@
     <div class="container">
       <row-one />
     </div>
-    <footer-section />
+    <footer-section class="mt-12"/>
   </div>
 </template>
 

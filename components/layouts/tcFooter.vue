@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-background-gray-light h-[320px] md:h-[220px] relative left-0 bottom-0 right-0 shadow-xl overflow-hidden"
+    class="bg-background-gray-light h-[340px] md:h-[220px] relative left-0 bottom-0 right-0 shadow-xl overflow-hidden"
   >
     <div>
       <div class="container p-4 pt-8 md:pt-12 md:p-0 md:py-12">

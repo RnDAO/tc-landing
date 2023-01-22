@@ -1,6 +1,6 @@
 <template>
   <div class="bg-warning-30 shadow-inner">
-    <div class="container py-14 space-y-8">
+    <div class="container py-14 space-y-8 p-4 md:p-0">
       <h3 class="text-white text-2xl font-bold text-center">
         We operate as a DAO, join us!
       </h3>
@@ -8,7 +8,7 @@
         <img src="@/static/tc-logo-sm.svg" alt="" />
         <img src="@/static/poweredbyRnDao.svg" alt="" />
       </div>
-      <p class="text-center text-sm text-white">
+      <p class="text-justify md:text-center text-sm text-white">
         TogetherCrew was conceived and is being incubated in RnDAO - an R&D DAO
         with a mission to empower humane <br />
         collaboration. Join RnDAO to contribute to TogetherCrew and other

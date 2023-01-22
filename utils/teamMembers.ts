@@ -31,7 +31,7 @@ const team: teamMember[] = [
     avatar: "",
   },
   {
-    name: "Tjitse",
+    name: "Denisa",
     stack: "UI/UX Design",
     avatar: "",
   },
