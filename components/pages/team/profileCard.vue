@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative bg-white group overflow-hidden w-[270px] h-[270px] rounded-box"
+    class="relative bg-white group overflow-hidden w-[270px] h-[270px] rounded-[8px]"
   >
     <img
       v-if="props.teamMember.name === 'Ashish'"
@@ -21,8 +21,8 @@
       alt=""
     />
     <img
-      v-else-if="props.teamMember.name === 'Sepehr'"
-      src="~~/static/team/Sepher.webp"
+      v-else-if="props.teamMember.name === 'Thegadget.eth'"
+      src="~~/static/team/Thegadget.eth.webp"
       class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
       alt=""
     />
@@ -57,7 +57,7 @@
       alt=""
     />
     <div class="relative p-2">
-      <div class="mt-40">
+      <div class="mt-0">
         <div
           class="transition-all transform translate-y-12 opacity-0 group-hover:opacity-100 group-hover:translate-y-0"
         >

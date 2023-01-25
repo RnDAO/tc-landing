@@ -6,7 +6,9 @@
       </h3>
       <div class="flex flex-row justify-center space-x-4">
         <img src="@/static/tc-logo-sm.svg" alt="" />
-        <img src="@/static/poweredbyRnDao.svg" alt="" />
+        <p class="font-bold text-white">
+          powered by RnDAO
+        </p>
       </div>
       <p class="text-justify md:text-center text-sm text-white">
         TogetherCrew was conceived and is being incubated in RnDAO - an R&D DAO

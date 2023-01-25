@@ -17,7 +17,7 @@
               <h3 class="text-2xl font-bold text-center">
                 Get in touch with us
               </h3>
-              <p class="text-center text-primary">rndao.email@gmail.com</p>
+              <p class="text-center text-primary">info@togethercrew.com</p>
               <div
                 class="flex flex-row flex-wrap space-y-2 md:space-y-0 md:space-x-14 md:py-10"
               >

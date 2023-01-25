@@ -7,16 +7,16 @@ const team: teamMember[] = [
   },
   {
     name: "Danielo",
-    stack: "Co-lead",
+    stack: "Co-lead. Venture strategy",
     avatar: "",
   },
   {
     name: "Katerina, PhD",
-    stack: "Network Science",
+    stack: "Co-lead. Network Science",
     avatar: "",
   },
   {
-    name: "Sepehr",
+    name: "Thegadget.eth",
     stack: "Project Manager",
     avatar: "",
   },
