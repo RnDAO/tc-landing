@@ -56,16 +56,25 @@
           <div class="md:w-1/6 space-y-3 mt-5 md:mt-0 md:space-y-3 text-center">
             <p class="text-sm md:text-base text-tc-light">Follow us</p>
             <ul class="flex flex-row justify-between space-x-5 md:space-x-0">
-              <li @click="redirectSocialMedia('telegram')">
+              <li
+                @click="redirectSocialMedia('telegram')"
+                class="cursor-pointer"
+              >
                 <img src="@/static/telegram-white.svg" alt="" />
               </li>
-              <li @click="redirectSocialMedia('twitter')">
+              <li
+                @click="redirectSocialMedia('twitter')"
+                class="cursor-pointer"
+              >
                 <img src="@/static/twitter-white.svg" alt="" />
               </li>
-              <li @click="redirectSocialMedia('discord')">
+              <li
+                @click="redirectSocialMedia('discord')"
+                class="cursor-pointer"
+              >
                 <img src="@/static/discord-white.svg" alt="" />
               </li>
-              <li @click="redirectSocialMedia('mirror')">
+              <li @click="redirectSocialMedia('mirror')" class="cursor-pointer">
                 <img src="@/static/mirror-white.svg" alt="" />
               </li>
             </ul>
