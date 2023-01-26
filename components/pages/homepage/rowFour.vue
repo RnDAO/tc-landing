@@ -12,7 +12,7 @@
       </p>
       <tc-button
         label="Schedule a Demo"
-        class="mt-8"
+        class="mt-3"
         custom-classes="h-[48px] w-full md:w-[240px]"
         v-on="{
           click: () => {
@@ -20,7 +20,7 @@
           },
         }"
       />
-      <div class="space-y-4 mt-8 md:mt-12 md:w-5/6">
+      <div class="space-y-4 mt-8 md:mt-12 comma md:w-5/6">
         <p class="text-base font-bold">
           With the Community Health Report, we understood the overall feeling of
           our members towards our community. It helped us recognize the
@@ -31,7 +31,7 @@
           provided insights we could take the necessary actions.
         </p>
       </div>
-      <div class="flex flex-row mt-4">
+      <div class="flex flex-row mt-4 w-2/3 md:w-full relative -top-8">
         <p class="text-sm">Incandenza, Community Guild & Core Contributor at</p>
         <img src="@/static/icons/aragorn-sm.svg" alt="" />
       </div>

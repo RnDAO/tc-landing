@@ -23,6 +23,20 @@
     rgba(245, 245, 245, 0) 100%
   );
 }
+
+
+.comma::before {
+  content: url("~/static/doublequotationreverse.svg");
+  position: relative;
+  left: -3rem;
+}
+
+.comma::after {
+  content: url("~/static/doublequotation.svg");
+  position: relative;
+  right: -32rem;
+}
+
 .tc-our-vision__header {
   background: url("~/static/graph-left-bg.svg") no-repeat,
     url("~/static/graph-right-bg.svg") no-repeat;
@@ -51,4 +65,17 @@
     background-size: contain, contain;
     background-size: 50%;
   }
+
+.comma::before {
+  content: url("~/static/doublequotationreverse.svg");
+  position: relative;
+  left: 0rem;
+}
+
+.comma::after {
+  content: url("~/static/doublequotation.svg");
+  position: relative;
+  right: -24rem;
+}
+
 }
