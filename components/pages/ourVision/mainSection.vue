@@ -8,7 +8,7 @@
         class="flex flex-col md:flex-row justify-between items-center md:pl-12"
       >
         <div class="space-y-4 px-8 md:px-0">
-          <h3 class="text-2xl font-bold">
+          <h3 class="text-2xl font-bold pt-8 md:pt-0">
             Healthy communities are <br class="hidden md:block" />
             at the heart of Web3
           </h3>

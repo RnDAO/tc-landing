@@ -53,7 +53,7 @@
               </div>
             </ul>
           </div>
-          <div class="md:w-1/6 space-y-3 mt-5 md:mt-0 md:space-y-3 text-left">
+          <div class="md:w-1/6 space-y-3 mt-5 md:mt-0 md:space-y-3 text-center md:text-left">
             <p class="text-sm text-tc-light">Follow us</p>
             <ul class="flex flex-row justify-between space-x-5 md:space-x-0">
               <li class="cursor-pointer">

@@ -1,6 +1,6 @@
 <template>
   <div class="tc-gray-gradient_bg">
-    <div class="container py-14 mb-12 md:py-8">
+    <div class="container py-14 md:mb-12 p-3 md:p-0 md:py-8">
       <h1
         class="text-4xl font-bold text-center mt-12 md:mt-0 mb-8"
         data-aos="fade-up"
@@ -128,7 +128,7 @@
                   </p>
                   <tc-button
                     button-type="outlined"
-                    custom-classes="h-[48px] w-[240px] border-white text-white"
+                    custom-classes="h-[48px] w-[240px] border-white text-white  hover:bg-white hover:text-black transition delay-75 ease-in"
                     label="Schedule a Demo"
                     v-on="{
                       click: () => {
