@@ -1,7 +1,7 @@
 <template>
   <div class="px-3 md:px-0">
     <div
-      class="bg-white shadow-lg rounded-box py-12 p-6 md:pl-10 mt-[22rem] md:mt-[4rem]"
+      class="bg-white shadow-lg rounded-box py-12 p-6 md:pl-10 mt-[22rem] md:mt-[6rem]"
     >
       <div class="flex flex-col md:flex-row justify-between">
         <div class="space-y-6 md:w-6/12">

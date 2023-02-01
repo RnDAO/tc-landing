@@ -1,29 +1,30 @@
 <template>
-  <div>
-    <div class="container py-14 md:py-8">
+  <div class="tc-gray-gradient_bg">
+    <div class="container py-14 mb-12 md:py-8">
       <h1
         class="text-4xl font-bold text-center mt-12 md:mt-0 mb-8"
-        data-aos="fade-left"
+        data-aos="fade-up"
       >
         Contact us
       </h1>
       <div class="space-y-4">
         <div
           class="bg-white shadow-2xl rounded-box overflow-hidden"
-          data-aos="fade-down"
+          data-aos="fade-up"
         >
           <div class="flex justify-center items-center px-12 py-8">
-            <div class="space-y-4">
-              <h3 class="text-2xl font-bold text-center">
+            <div class="space-y-3">
+              <h3 class="text-xl font-bold text-center">
                 Get in touch with us
               </h3>
               <p class="text-center text-primary">info@togethercrew.com</p>
               <div
                 class="flex flex-row flex-wrap space-y-2 md:space-y-0 md:space-x-14 md:py-10"
               >
-                <div
+                <a
                   class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
-                  @click="redirect('telegram')"
+                  :href="config.public.telegram"
+                  target="_blank"
                 >
                   <img
                     src="@/static/telegram.svg"
@@ -34,10 +35,11 @@
                   />
                   <p class="font-bold">Telegram</p>
                   <span class="text-sm"> Community Health </span>
-                </div>
-                <div
+                </a>
+                <a
                   class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
-                  @click="redirect('twitter')"
+                  :href="config.public.twitter"
+                  target="_blank"
                 >
                   <img
                     src="@/static/twitter.svg"
@@ -48,10 +50,11 @@
                   />
                   <p class="font-bold">Twitter</p>
                   <span class="text-sm"> RnDAO </span>
-                </div>
-                <div
+                </a>
+                <a
                   class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
-                  @click="redirect('discord')"
+                  :href="config.public.discord"
+                  target="_blank"
                 >
                   <img
                     src="@/static/discord.svg"
@@ -62,10 +65,11 @@
                   />
                   <p class="font-bold">Discord</p>
                   <span class="text-sm"> RnDAO </span>
-                </div>
-                <div
+                </a>
+                <a
                   class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
-                  @click="redirect('mirror')"
+                  :href="config.public.mirror"
+                  target="_blank"
                 >
                   <img
                     src="@/static/mirror.svg"
@@ -76,14 +80,14 @@
                   />
                   <p class="font-bold">Mirror</p>
                   <span class="text-sm"> RnDAO </span>
-                </div>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div
           class="bg-white shadow-2xl rounded-box overflow-hidden"
-          data-aos="fade-down"
+          data-aos="fade-up"
         >
           <div class="flex justify-center items-center px-12 py-12">
             <div class="space-y-4">

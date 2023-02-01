@@ -24,6 +24,14 @@
   );
 }
 
+.tc-gray-gradient_bg {
+  background: linear-gradient(
+    180deg,
+    #f5f5f5 0%,
+    #f5f5f5 79.34%,
+    rgba(245, 245, 245, 0) 100%
+  );
+}
 
 .comma::before {
   content: url("~/static/doublequotationreverse.svg");
@@ -41,7 +49,7 @@
 .tc-our-vision__header {
   background: url("~/static/graph-left-bg.svg") no-repeat,
     url("~/static/graph-right-bg.svg") no-repeat;
-  background-position: top 8.5rem left, top 5rem right;
+  background-position: top 10.5rem left, top 7rem right;
   background-size: contain, contain;
   background-size: auto;
 }
@@ -67,16 +75,15 @@
     background-size: 50%;
   }
 
-.comma::before {
-  content: url("~/static/doublequotationreverse.svg");
-  position: relative;
-  left: 0rem;
-}
+  .comma::before {
+    content: url("~/static/doublequotationreverse.svg");
+    position: relative;
+    left: 0rem;
+  }
 
-.comma::after {
-  content: url("~/static/doublequotation.svg");
-  position: relative;
-  right: -24rem;
-}
-
+  .comma::after {
+    content: url("~/static/doublequotation.svg");
+    position: relative;
+    right: -24rem;
+  }
 }

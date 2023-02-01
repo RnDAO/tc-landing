@@ -2,12 +2,12 @@
   <div class="space-y-4 mt-12">
     <div
       class="bg-white shadow-2xl rounded-box overflow-hidden"
-      data-aos="fade-down"
+      data-aos="fade-up"
     >
       <div
         class="flex flex-col md:flex-row justify-between items-center md:pl-12"
       >
-        <div class="space-y-4 px-8 md:px-0 pt-8">
+        <div class="space-y-4 px-8 md:px-0">
           <h3 class="text-2xl font-bold">
             Healthy communities are <br class="hidden md:block" />
             at the heart of Web3
@@ -42,7 +42,7 @@
         class="flex flex-col-reverse md:flex-row justify-between items-center p-8 md:px-12 md:py-12"
       >
         <img src="@/static/methodogy.svg" class="mt-8 md:mt-0" alt="" />
-        <div class="space-y-4">
+        <div class="space-y-4 pt-3">
           <h3 class="text-2xl font-bold text-white">Our methodology</h3>
           <div class="space-y-6 text-white">
             <p>
@@ -63,7 +63,7 @@
           </div>
           <tc-button
             button-type="outlined"
-            custom-classes="border-white text-white h-[48px] w-full md:w-[240px]"
+            custom-classes="border-white text-white h-[48px] w-full md:w-[240px] hover:bg-white hover:text-black transition delay-75 ease-in"
             label="Read our research"
             v-on="{
               click: () => {
@@ -76,10 +76,10 @@
     </div>
     <div
       class="bg-white shadow-2xl rounded-box overflow-hidden"
-      data-aos="fade-down"
+      data-aos="fade-up"
     >
       <div
-        class="flex flex-col md:flex-row justify-between items-center p-8 md:pl-12 md:py-2"
+        class="flex flex-col md:flex-row justify-between items-center p-8 md:pl-12 md:py-6"
       >
         <div class="space-y-4">
           <h3 class="text-2xl font-bold">Powerful yet easy to implement</h3>
@@ -119,7 +119,10 @@ function redirectToCalendar() {
   location.replace(config.public.calendarUrl);
 }
 function redirectToResearch() {
-  location.replace(config.public.researchUrl);
+  const link = document.createElement('a')
+  link.href = config.public.researchUrl
+  link.target = '_blank'
+  link.click()
 }
 </script>
 

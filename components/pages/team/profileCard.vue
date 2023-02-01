@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative bg-white group overflow-hidden w-[270px] h-[270px] rounded-[8px]"
+    class="relative bg-stone-50 transition-all ease-in-out delay-75 group overflow-hidden w-[270px] h-[270px] rounded-[8px]"
   >
     <img
       v-if="props.teamMember.name === 'Ashish'"

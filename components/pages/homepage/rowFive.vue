@@ -4,7 +4,7 @@
       <h3 class="md:text-2xl md:font-bold text-center">
         Our clients and supporters
       </h3>
-      <div class="md:space-y-4 md:mt-8">
+      <div class="md:space-y-4 md:py-6">
         <div
           class="flex flex-col md:flex-row md:space-x-4 justify-between md:justify-center overflow-auto"
         >

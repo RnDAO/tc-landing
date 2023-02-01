@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="tc-gray-gradient_bg">
     <div class="container">
       <row-one />
     </div>
