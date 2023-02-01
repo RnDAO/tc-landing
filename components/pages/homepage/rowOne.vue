@@ -9,8 +9,8 @@
       </h1>
       <p class="text-left text-sm md:text-center md:text-base">
         A new type of organization needs a new types of data analytics. We have
-        assembled a team of <b>data scientists</b> and <b>Web 3 veterans</b> to
-        empower community leaders with deep, actionable insights
+        assembled a team of data scientists and Web 3 veterans to
+        empower community leaders with <b> deep, actionable insights </b>
       </p>
       <div class="space-y-2 md:space-y-4">
         <div class="space-y-2 md:space-y-4">
