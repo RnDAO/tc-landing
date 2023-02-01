@@ -1,5 +1,5 @@
 <template>
-  <div class="p-3">
+  <div class="px-3 md:px-0">
     <h3 class="text-2xl text-center font-bold mt-3 mb-8 md:mb-8">
       More features coming soon!
     </h3>
@@ -33,7 +33,7 @@
       </div>
       <div class="flex flex-row justify-between space-x-4">
         <div
-          class="w-full flex flex-col shadow-2xl bg-warning-30 p-5 rounded-box"
+          class="w-full flex flex-col shadow-2xl space-y-2 bg-warning-30 p-5 rounded-box"
           data-aos="fade-up"
         >
           <h5 class="font-bold text-white text-lg md:text-2xl">
@@ -43,7 +43,7 @@
             that determine the health of your community
           </p>
           <div
-            class="relative w-10/12 md:w-full mx-auto flex justify-end float-right py-12 md:py-0 mr-8"
+            class="relative mx-auto flex justify-end float-right py-12 md:py-0 mr-8"
           >
             <img src="@/static/icons/heart.svg" alt="" />
           </div>
@@ -53,8 +53,11 @@
               <NuxtLink
                 to="https://rndao.mirror.xyz/F-SMj6p_jdYvrMMkR1d9Hd6YbEg39qItTKfjo-zkgqM"
                 target="_blank"
-                class="bg-warning-10 w-2/3 md:w-auto px-4 py-1 ml-0 md:ml-3 rounded-full"
+                class="bg-warning-10 hover:bg-warning-50 transition delay-75 ease-in w-2/3 md:w-auto flex px-4 py-1 ml-0 md:ml-3 rounded-full items-center"
                 >Community Health
+                <div class="w-6">
+                  <img src="@/static/arrow-right.svg" class="pl-2" alt="" />
+                </div>
               </NuxtLink>
             </p>
           </div>
@@ -64,7 +67,7 @@
         class="flex flex-col md:flex-row justify-between space-y-4 md:space-y-0 md:space-x-4"
       >
         <div
-          class="md:w-1/2 shadow-2xl bg-secondary p-5 rounded-box overflow-hidden"
+          class="md:w-1/2 shadow-2xl space-y-2 bg-secondary p-5 rounded-box overflow-hidden"
           data-aos="fade-up"
         >
           <h5 class="font-bold text-lg md:text-2xl">
@@ -77,7 +80,7 @@
           </div>
         </div>
         <div
-          class="md:w-1/2 shadow-2xl bg-white overflow-hidden p-5 rounded-box"
+          class="md:w-1/2 shadow-2xl space-y-2 bg-white overflow-hidden p-5 rounded-box"
           data-aos="fade-up"
         >
           <h5 class="font-bold text-lg md:text-2xl">Benchmark your metrics</h5>

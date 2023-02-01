@@ -10,13 +10,13 @@
           <div class="flex flex-row justify-between w-3/4 md:w-2/6">
             <ul class="md:w-1/2 space-y-3">
               <li
-                class="cursor-pointer text-sm md:text-base text-tc-light"
+                class="cursor-pointer text-sm text-tc-light"
                 @click="redirect('/our-vision')"
               >
                 Our Vision
               </li>
               <li
-                class="cursor-pointer text-sm md:text-base text-tc-light"
+                class="cursor-pointer text-sm text-tc-light"
                 @click="redirect('/team')"
               >
                 Team
@@ -24,25 +24,25 @@
             </ul>
             <ul class="md:w-1/2 space-y-3">
               <li
-                class="cursor-pointer text-sm md:text-base text-tc-light"
+                class="cursor-pointer text-sm text-tc-light"
                 @click="redirect('/contact-us')"
               >
                 Contact
               </li>
-              <li class="cursor-pointer text-sm md:text-base text-tc-light">
+              <li class="cursor-pointer text-sm text-tc-light">
                 Privacy & Teams
               </li>
             </ul>
           </div>
           <div class="w-3/4 md:w-2/6 mt-8 md:mt-0">
             <ul class="space-y-3">
-              <li class="text-sm md:text-base text-tc-light">
+              <li class="text-sm text-tc-light">
                 Join us now as an early-adopter community
               </li>
               <div class="flex justify-center md:block">
                 <tc-button
                   label="Schedule a demo"
-                  class="mx-auto text-center"
+                  class="mx-auto text-center text-sm"
                   custom-classes="w-[154px] float-left"
                   v-on="{
                     click: () => {
@@ -53,29 +53,28 @@
               </div>
             </ul>
           </div>
-          <div class="md:w-1/6 space-y-3 mt-5 md:mt-0 md:space-y-3 text-center">
-            <p class="text-sm md:text-base text-tc-light">Follow us</p>
+          <div class="md:w-1/6 space-y-3 mt-5 md:mt-0 md:space-y-3 text-left">
+            <p class="text-sm text-tc-light">Follow us</p>
             <ul class="flex flex-row justify-between space-x-5 md:space-x-0">
-              <li
-                @click="redirectSocialMedia('telegram')"
-                class="cursor-pointer"
-              >
-                <img src="@/static/telegram-white.svg" alt="" />
+              <li class="cursor-pointer">
+                <a :href="config.public.telegram" target="_blank">
+                  <img src="@/static/telegram-white.svg" alt="" />
+                </a>
               </li>
-              <li
-                @click="redirectSocialMedia('twitter')"
-                class="cursor-pointer"
-              >
-                <img src="@/static/twitter-white.svg" alt="" />
+              <li class="cursor-pointer">
+                <a :href="config.public.twitter" target="_blank">
+                  <img src="@/static/twitter-white.svg" alt="" />
+                </a>
               </li>
-              <li
-                @click="redirectSocialMedia('discord')"
-                class="cursor-pointer"
-              >
-                <img src="@/static/discord-white.svg" alt="" />
+              <li class="cursor-pointer">
+                <a :href="config.public.discord" target="_blank">
+                  <img src="@/static/discord-white.svg" alt="" />
+                </a>
               </li>
               <li @click="redirectSocialMedia('mirror')" class="cursor-pointer">
-                <img src="@/static/mirror-white.svg" alt="" />
+                <a :href="config.public.mirror" target="_blank">
+                  <img src="@/static/mirror-white.svg" alt="" />
+                </a>
               </li>
             </ul>
           </div>
@@ -103,24 +102,6 @@ function redirect(route) {
   router.push(route);
 }
 
-function redirectSocialMedia(socialMedia) {
-  switch (socialMedia) {
-    case "telegram":
-      location.replace(config.public.telegram);
-      break;
-    case "discord":
-      location.replace(config.public.discord);
-      break;
-    case "mirror":
-      location.replace(config.public.mirror);
-      break;
-    case "twitter":
-      location.replace(config.public.twitter);
-      break;
-    default:
-      break;
-  }
-}
 </script>
 
 <style></style>

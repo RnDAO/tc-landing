@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-white pt-12 pb-8 shadow-inner" data-aos="fade-down">
+  <div class="bg-white pt-12 pb-8 shadow-inner" data-aos="fade-up">
     <div class="container">
       <h3 class="md:text-2xl md:font-bold text-center">
         Our clients and supporters
       </h3>
-      <div class="p-3 md:p-0 md:space-y-4 md:mt-8">
+      <div class="md:space-y-4 md:mt-8">
         <div
           class="flex flex-col md:flex-row md:space-x-4 justify-between md:justify-center overflow-auto"
         >

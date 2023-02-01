@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col md:flex-row justify-between md:mt-14 p-3 md:p-0"
+    class="flex flex-col md:flex-row justify-between mt-4 md:mt-14 px-3 md:px-0 w-11/12 mx-auto"
     data-aos="fade-up"
   >
     <div>
@@ -20,7 +20,7 @@
           },
         }"
       />
-      <div class="space-y-4 mt-8 md:mt-12 comma md:w-5/6">
+      <div class="space-y-4 mt-8 md:mt-8 comma md:w-11/12">
         <p class="text-base font-bold">
           With the Community Health Report, we understood the overall feeling of
           our members towards our community. It helped us recognize the

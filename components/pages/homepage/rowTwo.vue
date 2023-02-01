@@ -1,22 +1,23 @@
 <template>
-  <div class="p-3">
+  <div class="px-3 md:px-0">
     <div
-      class="bg-white shadow-lg rounded-box py-12 p-6 mt-[15rem] md:pl-10 md:mt[2rem]"
-      data-aos="fade-up"
+      class="bg-white shadow-lg rounded-box py-12 p-6 md:pl-10 mt-[22rem] md:mt-[4rem]"
     >
-      <div class="flex flex-col md:flex-row justify-between items-center">
-        <div class="space-y-6">
-          <h3 class="text-2xl font-bold">
+      <div class="flex flex-col md:flex-row justify-between">
+        <div class="space-y-6 md:w-6/12">
+          <h3 class="text-2xl font-bold mt-5">
             Pick the best time to connect <br class="hidden md:block" />
             with your community
           </h3>
           <p class="text-base">
             Because attention is precious, schedule your events
-            <br class="hidden md:block" />
+            <br class="hidden md:flex" />
             and announcements for maximum engagement.
           </p>
         </div>
-        <img src="@/static/icons/heatmap.svg" alt="" />
+        <div>
+          <img src="@/static/icons/heatmap.svg" alt="" />
+        </div>
       </div>
       <div class="text-center space-y-12">
         <h5 class="text-md md:text-xl">
@@ -28,25 +29,31 @@
           >
             <li>
               <div
-                className="mx-auto h-16 w-16 bg-background-slate rounded-full justify-center flex items-center"
+                className="mx-auto h-[72px] w-[72px] bg-background-slate rounded-full justify-center flex items-center"
               >
-                <img src="@/static/discord.svg" alt="" />
+                <div class="w-[32px] h-[32px] relative top-1">
+                  <img src="@/static/discord.svg" alt="" />
+                </div>
               </div>
               <p>1. Connect your discord community</p>
             </li>
             <li>
               <div
-                className="mx-auto h-16 w-16 bg-background-slate rounded-full justify-center flex items-center"
+                className="mx-auto h-[72px] w-[72px] bg-background-slate rounded-full justify-center flex items-center"
               >
-                <img src="@/static/calendar.svg" alt="" />
+                <div class="w-[32px] h-[32px] relative">
+                  <img src="@/static/calendar.svg" alt="" />
+                </div>
               </div>
               <p>2. Select time period and channels</p>
             </li>
             <li>
               <div
-                className="mx-auto h-16 w-16 bg-background-slate rounded-full justify-center flex items-center"
+                className="mx-auto h-[72px] w-[72px] bg-background-slate rounded-full justify-center flex items-center"
               >
-                <img src="@/static/star.svg" alt="" />
+                <div class="w-[32px] h-[32px] relative top-0.5 left-0.5">
+                  <img src="@/static/star.svg" alt="" />
+                </div>
               </div>
               <p>3. Pick the best time for your event</p>
             </li>
@@ -65,7 +72,7 @@
           />
           <tc-button
             label="Schedule a Demo"
-            class="mx-auto text-center"
+            class="mx-auto text-center font-bold"
             custom-classes="h-[48px] w-[240px]"
             button-type="transparent"
             v-on="{

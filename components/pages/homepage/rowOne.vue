@@ -1,8 +1,7 @@
 <template>
-  <div class="p-3">
+  <div class="px-3 md:px-0">
     <div
-      class="md:w-7/12 mx-auto space-y-10 md:space-y-14 relative top-[14rem] md:top-[8rem] px-3"
-      data-aos="fade-up"
+      class="md:w-7/12 mx-auto space-y-10 md:space-y-14 relative top-[20rem] md:top-[3rem] px-3"
     >
       <h1 class="text-3xl md:text-4xl font-bold text-center">
         Community health insights <br class="hidden md:block" />

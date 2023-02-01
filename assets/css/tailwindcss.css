@@ -28,13 +28,14 @@
 .comma::before {
   content: url("~/static/doublequotationreverse.svg");
   position: relative;
-  left: -3rem;
+  left: -1.8rem;
 }
 
 .comma::after {
   content: url("~/static/doublequotation.svg");
   position: relative;
-  right: -32rem;
+  top: 0.5rem;
+  right: -30rem;
 }
 
 .tc-our-vision__header {

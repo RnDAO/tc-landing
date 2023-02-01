@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-white shadow-xl z-50">
+  <div class="bg-white z-50 sticky top-0">
     <div
       class="container h-[60px] mx-auto flex flex-row justify-between items-center"
     >
       <NuxtLink to="/">
-        <img src="@/static/icons/tc-logo.svg" class="bg-cover" alt="" />
+        <img src="@/static/icons/tc-logo.svg" class="bg-cover" alt="toghetherCrew" />
       </NuxtLink>
       <div class="flex flex-row gap-x-12 items-center">
         <ul class="flex flex-row gap-5">

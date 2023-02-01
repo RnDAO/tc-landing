@@ -8,9 +8,9 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    borderRadius:{
-      box:'14px',
-      'full': '9999px',
+    borderRadius: {
+      box: "14px",
+      full: "9999px",
     },
     extend: {
       colors: {
@@ -31,17 +31,18 @@ module.exports = {
         },
         warning: {
           DEFAULT: "#080C3D",
-          10: '#53599F',
-          30: '#313671'
+          10: "#53599F",
+          30: "#313671",
+          50: "#7379C6",
         },
         background: {
-          gray: '#F7F7F7',
-          slate: '#F5F5F5',
-          'gray-light': "#525252",
+          gray: "#F7F7F7",
+          slate: "#F5F5F5",
+          "gray-light": "#525252",
         },
-        tc:{
-          light:'#D6D6D6',
-          DEFAULT:'#9B9B9B'
+        tc: {
+          light: "#D6D6D6",
+          DEFAULT: "#9B9B9B",
         },
         "primary-shades": {
           10: "#804EE1",
@@ -66,7 +67,8 @@ module.exports = {
       },
     },
     backgroundImage: {
-      'header-bg-pattern': 'linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 79.34%, rgba(245, 245, 245, 0) 100%);'
+      "header-bg-pattern":
+        "linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 79.34%, rgba(245, 245, 245, 0) 100%);",
     },
     container: {
       center: true,
