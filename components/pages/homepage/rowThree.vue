@@ -1,6 +1,6 @@
 <template>
   <div class="px-3 md:px-0">
-    <h3 class="text-2xl text-center font-bold mt-3 mb-8 md:mb-8">
+    <h3 class="text-2xl text-center font-bold mt-8 mb-8 md:mb-8">
       More features coming soon!
     </h3>
     <div class="space-y-4">
