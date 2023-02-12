@@ -4,7 +4,11 @@
       class="container h-[60px] mx-auto flex flex-row justify-between items-center"
     >
       <NuxtLink to="/">
-        <img src="@/static/icons/tc-logo.svg" class="bg-cover" alt="toghetherCrew" />
+        <img
+          src="@/static/icons/tc-logo.svg"
+          class="bg-cover"
+          alt="toghetherCrew"
+        />
       </NuxtLink>
       <div class="flex flex-row gap-x-12 items-center">
         <ul class="flex flex-row gap-5">
@@ -32,7 +36,7 @@
             button-type="outlined"
             v-on="{
               click: () => {
-                redirectToDashboard();
+                loginWithDiscord();
               },
             }"
           />
@@ -49,6 +53,9 @@ const config = useRuntimeConfig();
 
 function redirectToDashboard() {
   location.replace(config.public.dashboardUrl);
+}
+function loginWithDiscord() {
+  location.replace(`${config.public.baseUrl}/auth/login`);
 }
 </script>
 
