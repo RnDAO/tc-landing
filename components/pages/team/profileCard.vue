@@ -3,56 +3,14 @@
     class="relative bg-stone-50 transition-all ease-in-out delay-75 group overflow-hidden w-full h-[320px] md:w-[270px] md:h-[270px] rounded-[8px]"
   >
     <img
-      v-if="props.teamMember.name === 'Ashish'"
-      src="~~/static/team/ashish.webp"
+      v-if="!props.teamMember.avatar"
+      src="~~/static/team/empty-avatar.webp"
       class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
       alt=""
     />
     <img
-      v-else-if="props.teamMember.name === 'Danielo'"
-      src="~~/static/team/Daniel.webp"
-      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
-      alt=""
-    />
-    <img
-      v-else-if="props.teamMember.name === 'Katerina, PhD'"
-      src="~~/static/team/Katerina.webp"
-      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
-      alt=""
-    />
-    <img
-      v-else-if="props.teamMember.name === 'Thegadget.eth'"
-      src="~~/static/team/Thegadget.eth.webp"
-      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
-      alt=""
-    />
-    <img
-      v-else-if="props.teamMember.name === 'Tjitse van der Molen'"
-      src="~~/static/team/Ene.webp"
-      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
-      alt=""
-    />
-    <img
-      v-else-if="props.teamMember.name === 'Mehrdad Mir Mohammad Sadeghi'"
-      src="~~/static/team/Mehrdad.webp"
-      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
-      alt=""
-    />
-    <img
-      v-else-if="props.teamMember.name === 'Denisa'"
-      src="~~/static/team/Denisa.webp"
-      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
-      alt=""
-    />
-    <img
-      v-else-if="props.teamMember.name === 'Martin Agubata'"
-      src="~~/static/team/Martin.webp"
-      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
-      alt=""
-    />
-    <img
-      v-else-if="props.teamMember.name === 'Zuie4J'"
-      src="~~/static/team/Nima.webp"
+      v-else
+      :src="props.teamMember.avatar"
       class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
       alt=""
     />
@@ -66,7 +24,7 @@
               {{ props.teamMember.name }}
             </p>
             <p>
-              {{ props.teamMember.stack }}
+              {{ props.teamMember.role }}
             </p>
           </div>
         </div>
