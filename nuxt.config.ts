@@ -30,6 +30,7 @@ export default defineNuxtConfig({
       telegram: process.env.NUXT_PUBLIC_TELEGRAM,
       twitter: process.env.NUXT_PUBLIC_TWITTER,
       researchUrl: process.env.NUXT_PUBLIC_RNDAO_RESEARCH,
+      notion_api_key:process.env.NUXT_PUBLIC_NOTION_API_KEY
     },
   },
 });
