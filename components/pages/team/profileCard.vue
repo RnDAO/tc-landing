@@ -14,16 +14,19 @@
       class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
       alt=""
     />
-    <div class="relative p-2">
-      <div class="mt-0">
+    <div class="relative">
+      <div class="mt-0 py-4 group-hover:py-1">
         <div
-          class="transition-all transform translate-y-12 opacity-0 group-hover:opacity-100 group-hover:translate-y-0"
+          class="bg-avatar group-hover:hidden relative translate-y-[180px] h-[90px]"
+        />
+        <div
+          class="transition-all transform translate-y-[120px] opacity-100 group-hover:opacity-100 group-hover:translate-y-0"
         >
-          <div class="p-2">
+          <div class="px-4 py-2">
             <p class="text-black text-xl font-bold">
               {{ props.teamMember.name }}
             </p>
-            <p>
+            <p class="opacity-0 group-hover:opacity-100">
               {{ props.teamMember.role }}
             </p>
           </div>
