@@ -1,7 +1,7 @@
 <template>
   <div class="tc-gray-gradient_bg">
     <div class="py-8">
-      <div class="container p-5 bg-white shadow-lg rounded-box">
+      <div class="container px-12 py-6 bg-white shadow-lg rounded-box">
         <h1 class="text-3xl text-center mb-4">
           <strong>PRIVACY POLICY</strong>
         </h1>
@@ -286,7 +286,7 @@
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />Your questions,
           comments, requests or complaints regarding this Privacy Policy shall
-          be addressed to ..............................................<br />&nbsp;&nbsp;
+          be addressed to info@togethercrew.com<br />&nbsp;&nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br /><em
             >If You are a resident of the European Economic Area and believe we
