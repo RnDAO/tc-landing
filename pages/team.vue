@@ -17,9 +17,13 @@ useHead({
     return "Team | ToghetherCrew";
   },
 });
-let team = ref([]);
-const { data } = await useAsyncData("response", () => $fetch("/api/team"));
-team = data._rawValue.teamMembers;
+let team = [];
+const config = useRuntimeConfig();
+
+const response = await useAsyncData("response", () =>
+  $fetch(`${config.public.baseUrl}/notion/databases`)
+);
+team = response.data._rawValue;
 </script>
 
 <style></style>
