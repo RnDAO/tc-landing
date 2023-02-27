@@ -20,22 +20,10 @@
 </template>
 
 <script setup>
+import teamMembers from "@/utils/teamMembers";
 import ProfileCard from "@/components/pages/team/profileCard.vue";
 
-const props = defineProps({
-  team: {
-    type: Array,
-    default: () => [],
-  },
-  label: {
-    type: String,
-    default: "",
-  },
-  customClasses: {
-    type: String,
-    default: "",
-  },
-});
+const team = teamMembers;
 </script>
 
 <style></style>
