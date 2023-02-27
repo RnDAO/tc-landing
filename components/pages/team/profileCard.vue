@@ -3,31 +3,70 @@
     class="relative bg-stone-50 transition-all ease-in-out delay-75 group overflow-hidden w-full h-[320px] md:w-[270px] md:h-[270px] rounded-[8px]"
   >
     <img
-      v-if="!props.teamMember.avatar"
-      src="~~/static/team/empty-avatar.webp"
+      v-if="props.teamMember.name === 'Ashish'"
+      src="~~/static/team/ashish.webp"
       class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
       alt=""
     />
     <img
-      v-else
-      :src="props.teamMember.avatar"
+      v-else-if="props.teamMember.name === 'Danielo'"
+      src="~~/static/team/Daniel.webp"
       class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
       alt=""
     />
-    <div class="relative">
-      <div class="mt-0 py-4 group-hover:py-1">
+    <img
+      v-else-if="props.teamMember.name === 'Katerina, PhD'"
+      src="~~/static/team/Katerina.webp"
+      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
+      alt=""
+    />
+    <img
+      v-else-if="props.teamMember.name === 'Thegadget.eth'"
+      src="~~/static/team/Thegadget.eth.webp"
+      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
+      alt=""
+    />
+    <img
+      v-else-if="props.teamMember.name === 'Tjitse van der Molen'"
+      src="~~/static/team/Ene.webp"
+      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
+      alt=""
+    />
+    <img
+      v-else-if="props.teamMember.name === 'Mehrdad Mir Mohammad Sadeghi'"
+      src="~~/static/team/Mehrdad.webp"
+      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
+      alt=""
+    />
+    <img
+      v-else-if="props.teamMember.name === 'Denisa'"
+      src="~~/static/team/Denisa.webp"
+      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
+      alt=""
+    />
+    <img
+      v-else-if="props.teamMember.name === 'Martin Agubata'"
+      src="~~/static/team/Martin.webp"
+      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
+      alt=""
+    />
+    <img
+      v-else-if="props.teamMember.name === 'Zuie4J'"
+      src="~~/static/team/Nima.webp"
+      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
+      alt=""
+    />
+    <div class="relative p-2">
+      <div class="mt-0">
         <div
-          class="bg-avatar group-hover:hidden relative translate-y-[180px] h-[90px]"
-        />
-        <div
-          class="transition-all transform translate-y-[120px] opacity-100 group-hover:opacity-100 group-hover:translate-y-0"
+          class="transition-all transform translate-y-12 opacity-0 group-hover:opacity-100 group-hover:translate-y-0"
         >
-          <div class="px-4 py-2">
+          <div class="p-2">
             <p class="text-black text-xl font-bold">
               {{ props.teamMember.name }}
             </p>
-            <p class="opacity-0 group-hover:opacity-100">
-              {{ props.teamMember.role }}
+            <p>
+              {{ props.teamMember.stack }}
             </p>
           </div>
         </div>
