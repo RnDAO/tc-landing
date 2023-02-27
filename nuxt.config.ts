@@ -22,7 +22,7 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     public: {
-      baseUrl:process.env.NUXT_PUBLIC_BASE_URL,
+      baseUrl: process.env.NUXT_PUBLIC_BASE_URL,
       dashboardUrl: process.env.NUXT_PUBLIC_DASHBOARD_REDIRECT_LINK,
       calendarUrl: process.env.NUXT_PUBLIC_CALENDAR,
       discord: process.env.NUXT_PUBLIC_DISCORD,
@@ -30,7 +30,6 @@ export default defineNuxtConfig({
       telegram: process.env.NUXT_PUBLIC_TELEGRAM,
       twitter: process.env.NUXT_PUBLIC_TWITTER,
       researchUrl: process.env.NUXT_PUBLIC_RNDAO_RESEARCH,
-      notion_api_key:process.env.NUXT_PUBLIC_NOTION_API_KEY
     },
   },
 });
