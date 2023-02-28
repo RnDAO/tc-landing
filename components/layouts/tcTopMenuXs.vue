@@ -28,11 +28,24 @@
             </li>
           </ul>
           <div class="flex flex-col gap-3">
-            <tc-button custom-classes="w-[300px] h-[44px]" label="Try now" />
+            <tc-button
+              custom-classes="w-[300px] h-[44px]"
+              label="Try now"
+              v-on="{
+                click: () => {
+                  redirectToDashboard();
+                },
+              }"
+            />
             <tc-button
               custom-classes="w-[300px] h-[44px]"
               label="Log in"
               button-type="outlined"
+              v-on="{
+                click: () => {
+                  loginWithDiscord();
+                },
+              }"
             />
           </div>
         </div>
@@ -41,28 +54,30 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import TcDrawer from "~/components/tcDrawer.vue";
 import menuListItems from "~/utils/topMenuList";
 
-export default {
-  components: { TcDrawer },
-  data() {
-    return {
-      isDrawerOpen: false,
-      menuListItems,
-    };
-  },
-  methods: {
-    toggleDrawer() {
-      this.isDrawerOpen = !this.isDrawerOpen;
-      this.$emit("toggle_drawer", this.isDrawerOpen);
-    },
-    closeDrawer() {
-      this.isDrawerOpen = false;
-    },
-  },
+const config = useRuntimeConfig();
+
+let isDrawerOpen = ref(false);
+
+const emit = defineEmits(["toggle_drawer"]);
+
+const toggleDrawer = () => {
+  isDrawerOpen.value = !isDrawerOpen.value;
+  emit("toggle_drawer", isDrawerOpen.value);
 };
+const closeDrawer = () => {
+  isDrawerOpen.value = false;
+};
+
+function redirectToDashboard() {
+  location.replace(config.public.dashboardUrl);
+}
+function loginWithDiscord() {
+  location.replace(`${config.public.baseUrl}/auth/login`);
+}
 </script>
 
 <style></style>
