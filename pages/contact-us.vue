@@ -12,78 +12,72 @@
           class="bg-white shadow-2xl rounded-box overflow-hidden"
           data-aos="fade-up"
         >
-          <div class="flex justify-center items-center px-12 py-8">
-            <div class="space-y-3">
-              <h3 class="text-xl font-bold text-center">
-                Get in touch with us
-              </h3>
-              <p class="text-center text-primary">info@togethercrew.com</p>
-              <div
-                class="flex flex-row flex-wrap space-y-2 md:space-y-0 md:space-x-14 md:py-10"
-              >
-                <a
-                  class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
-                  :href="config.public.telegram"
-                  target="_blank"
+          <client-only>
+            <div class="flex justify-center items-center px-12 py-8">
+              <div class="space-y-3">
+                <h3 class="text-xl font-bold text-center">
+                  Get in touch with us
+                </h3>
+                <p class="text-center text-primary">info@togethercrew.com</p>
+                <div
+                  class="flex flex-row flex-wrap space-y-2 md:space-y-0 md:space-x-14 md:py-10"
                 >
-                  <img
-                    src="@/static/telegram.svg"
-                    class="object-contain mx-auto"
-                    height="30px"
-                    width="30px"
-                    alt="telegram-icon"
-                  />
-                  <p class="font-bold">Telegram</p>
-                  <span class="text-sm"> Community Health </span>
-                </a>
-                <a
-                  class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
-                  :href="config.public.twitter"
-                  target="_blank"
-                >
-                  <img
-                    src="@/static/twitter.svg"
-                    class="object-contain mx-auto pb-1"
-                    height="30px"
-                    width="30px"
-                    alt="twitter-icon"
-                  />
-                  <p class="font-bold">Twitter</p>
-                  <span class="text-sm"> RnDAO </span>
-                </a>
-                <a
-                  class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
-                  :href="config.public.discord"
-                  target="_blank"
-                >
-                  <img
-                    src="@/static/discord.svg"
-                    class="object-contain mx-auto pb-2"
-                    height="30px"
-                    width="30px"
-                    alt="discord-icon"
-                  />
-                  <p class="font-bold">Discord</p>
-                  <span class="text-sm"> RnDAO </span>
-                </a>
-                <a
-                  class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
-                  :href="config.public.mirror"
-                  target="_blank"
-                >
-                  <img
-                    src="@/static/mirror.svg"
-                    class="object-contain mx-auto"
-                    height="30px"
-                    width="30px"
-                    alt="mirror-icon"
-                  />
-                  <p class="font-bold">Mirror</p>
-                  <span class="text-sm"> RnDAO </span>
-                </a>
+                  <a
+                    class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
+                    :href="config.public.telegram"
+                    target="_blank"
+                  >
+                    <img
+                      src="@/static/telegram.svg"
+                      class="object-contain mx-auto"
+                      alt="telegram-icon"
+                    />
+                    <p class="font-bold">Telegram</p>
+                    <span class="text-sm"> Community Health </span>
+                  </a>
+                  <a
+                    class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
+                    :href="config.public.twitter"
+                    target="_blank"
+                  >
+                    <img
+                      src="@/static/twitter.svg"
+                      class="object-contain mx-auto pb-1"
+                      alt="twitter-icon"
+                    />
+                    <p class="font-bold">Twitter</p>
+                    <span class="text-sm"> RnDAO </span>
+                  </a>
+                  <a
+                    class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
+                    :href="config.public.discord"
+                    target="_blank"
+                  >
+                    <img
+                      src="@/static/discord.svg"
+                      class="object-contain mx-auto pb-1.5"
+                      alt="discord-icon"
+                    />
+                    <p class="font-bold">Discord</p>
+                    <span class="text-sm"> RnDAO </span>
+                  </a>
+                  <a
+                    class="w-1/2 text-center flex flex-col justify-center md:w-auto cursor-pointer"
+                    :href="config.public.mirror"
+                    target="_blank"
+                  >
+                    <img
+                      src="@/static/mirror.svg"
+                      class="object-contain mx-auto"
+                      alt="mirror-icon"
+                    />
+                    <p class="font-bold">Mirror</p>
+                    <span class="text-sm"> RnDAO </span>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
+          </client-only>
         </div>
         <div
           class="bg-white shadow-2xl rounded-box overflow-hidden"

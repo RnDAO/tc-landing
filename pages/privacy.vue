@@ -1,7 +1,7 @@
 <template>
   <div class="tc-gray-gradient_bg">
     <div class="py-8">
-      <div class="container p-5 bg-white shadow-lg rounded-box">
+      <div class="container px-12 py-6 bg-white shadow-lg rounded-box">
         <h1 class="text-3xl text-center mb-4">
           <strong>PRIVACY POLICY</strong>
         </h1>
@@ -77,12 +77,12 @@
         <p>
           <strong>- &ldquo;Personal data&rdquo;&nbsp;</strong>means any
           information relating to an identified or identifiable natural person
-          (&lsquo;data subject&rsquo;) an identifiable natural person is one
-          who can be identified, directly or indirectly, in particular by
-          reference to an identifier such as a name, an identification number,
-          location data, an online identifier or to one or more factors specific
-          to the physical, physiological, genetic, mental, economic, cultural or
-          social identity of that natural person.
+          (&lsquo;data subject&rsquo;) an identifiable natural person is one who
+          can be identified, directly or indirectly, in particular by reference
+          to an identifier such as a name, an identification number, location
+          data, an online identifier or to one or more factors specific to the
+          physical, physiological, genetic, mental, economic, cultural or social
+          identity of that natural person.
         </p>
         <p>
           <strong>- &ldquo;Privacy Policy&rdquo;&nbsp;</strong>means this
@@ -233,11 +233,11 @@
             >The right to erasure (the right to be forgotten)&nbsp;</strong
           >&ndash; You have the right to request the erasure of Your personal
           data under particular circumstances: it is no longer necessary in
-          relation to the purposes for which it was collected You have
-          withdrawn Your consent to the processing, and there is no other legal
-          basis for processing. when Your personal data has been unlawfully
-          processed in the presence of other legal grounds.<br />&nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />●&nbsp;&nbsp;<strong
+          relation to the purposes for which it was collected You have withdrawn
+          Your consent to the processing, and there is no other legal basis for
+          processing. when Your personal data has been unlawfully processed in
+          the presence of other legal grounds.<br />&nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />●&nbsp;&nbsp;<strong
             >The right to object&nbsp;</strong
           >&ndash; You have the right to object to the processing of Your
           personal data.<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -286,9 +286,9 @@
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />Your questions,
           comments, requests or complaints regarding this Privacy Policy shall
-          be addressed to ..............................................<br />&nbsp;&nbsp;
+          be addressed to info@togethercrew.com<br />&nbsp;&nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br /><em
+          &nbsp; &nbsp; &nbsp;&nbsp;<br /><em
             >If You are a resident of the European Economic Area and believe we
             maintain Your Personal Data within the scope of the General Data
             Protection Regulation (GDPR), You may direct questions or complaints

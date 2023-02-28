@@ -69,6 +69,8 @@ module.exports = {
     backgroundImage: {
       "header-bg-pattern":
         "linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 79.34%, rgba(245, 245, 245, 0) 100%);",
+      avatar:
+        "linear-gradient(0deg, rgba(255, 255, 255, 0.7) 0%, rgba(217, 217, 217, 0) 100%);",
     },
     container: {
       center: true,

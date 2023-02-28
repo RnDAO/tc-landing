@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col md:flex-row justify-between mt-4 md:mt-14 px-3 md:px-0 w-11/12 mx-auto"
+    class="flex flex-col md:flex-row justify-between mt-4 md:mt-14 px-3 md:px-0 w-11/12 mx-auto overflow-hidden md:overflow-visible"
     data-aos="fade-up"
   >
     <div>
