@@ -6,7 +6,10 @@
       class="bg-primary h-[34px] w-[100px] text-white rounded-[8px]"
       :class="[customClasses ? customClasses : '']"
     >
-      {{ props.label }}
+      <div class="flex flex-row justify-center items-center space-x-2">
+        <slot />
+        {{ props.label }}
+      </div>
     </button>
     <button
       v-bind="$attrs"
@@ -14,7 +17,10 @@
       class="border border-black h-[34px] w-[100px] rounded-[8px]"
       :class="[customClasses ? customClasses : '']"
     >
-      {{ props.label }}
+      <div class="flex flex-row justify-center items-center space-x-3">
+        <slot />
+        {{ props.label }}
+      </div>
     </button>
     <button
       v-bind="$attrs"
@@ -22,7 +28,10 @@
       class="h-[34px] w-[100px] text-primary rounded-[8px]"
       :class="[customClasses ? customClasses : '']"
     >
-      {{ props.label }}
+      <div class="flex flex-row justify-center items-center space-x-3">
+        <slot />
+        {{ props.label }}
+      </div>
     </button>
   </div>
 </template>
