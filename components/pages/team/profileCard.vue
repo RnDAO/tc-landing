@@ -20,7 +20,7 @@
           class="bg-avatar group-hover:hidden relative translate-y-[220px] md:translate-y-[180px] h-[90px]"
         />
         <div
-          class="transition-all transfor translate-y-[160px] md:translate-y-[120px] opacity-100 group-hover:opacity-100 group-hover:translate-y-0"
+          class="transition-all translate-y-[160px] md:translate-y-[120px] opacity-100 group-hover:opacity-100 group-hover:translate-y-0"
         >
           <div class="px-4 py-2">
             <p class="text-black text-xl font-bold">
