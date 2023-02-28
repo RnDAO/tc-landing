@@ -5,13 +5,13 @@
     <img
       v-if="!props.teamMember.avatar"
       src="~~/static/team/empty-avatar.webp"
-      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
+      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-10"
       alt=""
     />
     <img
       v-else
       :src="props.teamMember.avatar"
-      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
+      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-10"
       alt=""
     />
     <div class="relative">
