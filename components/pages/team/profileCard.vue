@@ -1,17 +1,17 @@
 <template>
   <div
-    class="relative bg-stone-50 transition-all ease-in-out delay-75 group overflow-hidden w-full h-[320px] md:w-[270px] md:h-[270px] rounded-[8px]"
+    class="relative bg-white transition-all ease-in-out delay-75 group overflow-hidden w-full h-[320px] md:w-[270px] md:h-[270px] rounded-[8px]"
   >
     <img
       v-if="!props.teamMember.avatar"
       src="~~/static/team/empty-avatar.webp"
-      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
+      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-20"
       alt=""
     />
     <img
       v-else
       :src="props.teamMember.avatar"
-      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-50"
+      class="absolute inset-0 object-cover grayscale w-full h-full group-hover:opacity-20"
       alt=""
     />
     <div class="relative">
