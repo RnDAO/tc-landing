@@ -54,7 +54,13 @@
   background-size: auto;
 }
 
-@media only screen and (max-width: 1018px) {
+.logo__image {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+@media (min-width: 441px) and (max-width: 1018px) {
   .tc-homepage__header {
     background: url("~/static/header-left-bg.svg") no-repeat,
       url("~/static/header-right-bg.svg") no-repeat,
@@ -84,6 +90,24 @@
   .comma::after {
     content: url("~/static/doublequotation.svg");
     position: relative;
-    right: -24rem;
+    right: -29rem;
+  }
+  .logo__image {
+    position: relative;
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .comma::after {
+    content: url("~/static/doublequotation.svg");
+    position: relative;
+    right: -18rem;
+  }
+  .logo__image {
+    position: relative;
+    width: 45%;
+    height: 45%;
   }
 }
