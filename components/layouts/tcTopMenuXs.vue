@@ -3,7 +3,7 @@
     <div
       class="fixed top-0 bg-white w-full py-3 px-5 flex flex-row justify-between items-center z-50 shadow-lg"
     >
-      <div>
+      <div @click="$router.push('/')">
         <img src="@/static/tc-logo-sm-purple.svg" alt="" />
       </div>
       <div @click="toggleDrawer">
