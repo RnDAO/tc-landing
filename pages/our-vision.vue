@@ -15,9 +15,9 @@ import RowFive from "~~/components/pages/homepage/rowFive.vue";
 import MainSection from "~/components/pages/ourVision/mainSection.vue";
 import RowOne from "~~/components/pages/ourVision/rowOne.vue";
 useHead({
-  titleTemplate: "%s - ToghetherCrew",
+  titleTemplate: "%s - TogetherCrew",
   titleTemplate: () => {
-    return "Our vision | ToghetherCrew";
+    return "Our vision | TogetherCrew";
   },
 });
 </script>
