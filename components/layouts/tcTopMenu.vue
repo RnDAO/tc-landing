@@ -7,7 +7,7 @@
         <img
           src="@/static/icons/tc-logo.svg"
           class="bg-cover"
-          alt="toghetherCrew"
+          alt="TogetherCrew"
         />
       </NuxtLink>
       <div class="flex flex-row gap-x-12 items-center">

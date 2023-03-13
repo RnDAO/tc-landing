@@ -3,7 +3,7 @@
     <div class="container">
       <row-one />
     </div>
-    <footer-section class="mt-12"/>
+    <footer-section class="mt-12" />
   </div>
 </template>
 
@@ -11,9 +11,9 @@
 import FooterSection from "~~/components/pages/team/footerSection.vue";
 import RowOne from "~~/components/pages/team/rowOne.vue";
 useHead({
-  titleTemplate: "%s - ToghetherCrew",
+  titleTemplate: "%s - TogetherCrew",
   titleTemplate: () => {
-    return "Team | ToghetherCrew";
+    return "Team | TogetherCrew";
   },
 });
 </script>

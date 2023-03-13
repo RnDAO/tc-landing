@@ -148,9 +148,9 @@
 
 <script setup>
 useHead({
-  titleTemplate: "%s - ToghetherCrew",
+  titleTemplate: "%s - TogetherCrew",
   titleTemplate: () => {
-    return "Contact Us | ToghetherCrew";
+    return "Contact Us | TogetherCrew";
   },
 });
 
