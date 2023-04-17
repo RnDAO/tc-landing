@@ -20,6 +20,7 @@ export default defineNuxtConfig({
     "~/plugins/font-awsome.js",
     { src: "@/plugins/aos", ssr: false, mode: "client" },
     { src: "~/plugins/hotjar.js", mode: "client" },
+    { src: "~/plugins/mava-chat-script.js", mode: "client" },
   ],
   runtimeConfig: {
     public: {

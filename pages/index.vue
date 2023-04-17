@@ -21,9 +21,9 @@ import RowThree from "~/components/pages/homepage/rowThree.vue";
 import RowFour from "~/components/pages/homepage/rowFour.vue";
 import RowFive from "~/components/pages/homepage/rowFive.vue";
 useHead({
-  titleTemplate: "%s - ToghetherCrew",
+  titleTemplate: "%s - TogetherCrew",
   titleTemplate: () => {
-    return "Home | ToghetherCrew";
+    return "Home | TogetherCrew";
   },
 });
 </script>
