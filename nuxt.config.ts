@@ -21,6 +21,7 @@ export default defineNuxtConfig({
     { src: "@/plugins/aos", ssr: false, mode: "client" },
     { src: "~/plugins/hotjar.js", mode: "client" },
     { src: "~/plugins/tawk-messenger.js", mode: "client" },
+    { src: "~/plugins/amplitude.js", mode: "client" },
   ],
   runtimeConfig: {
     public: {

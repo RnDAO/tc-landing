@@ -2,6 +2,72 @@
 # yarn lockfile v1
 
 
+"@amplitude/analytics-browser@^1.9.4":
+  "integrity" "sha512-r0Jp+WGD4SEdK1BRnvL0OOkUQXOGn8K2LodXCwttcEA285pUX8U8kfSkJltN49PZSR9TWD7HehOiXvLhxNujPA=="
+  "resolved" "https://registry.npmjs.org/@amplitude/analytics-browser/-/analytics-browser-1.9.4.tgz"
+  "version" "1.9.4"
+  dependencies:
+    "@amplitude/analytics-client-common" "^0.6.3"
+    "@amplitude/analytics-core" "^0.13.0"
+    "@amplitude/analytics-types" "^0.18.0"
+    "@amplitude/plugin-page-view-tracking-browser" "^0.7.0"
+    "@amplitude/plugin-web-attribution-browser" "^0.6.4"
+    "@amplitude/ua-parser-js" "^0.7.31"
+    "tslib" "^2.4.1"
+
+"@amplitude/analytics-client-common@^0.6.3":
+  "integrity" "sha512-tpRDPbsRywlAnFOEngVn7+IBkOY9K4seZpzoRMcPTYFCUxFO95VKrBmKbB61vRgAPZnXXXYw7Q7hiFmBf3saUw=="
+  "resolved" "https://registry.npmjs.org/@amplitude/analytics-client-common/-/analytics-client-common-0.6.3.tgz"
+  "version" "0.6.3"
+  dependencies:
+    "@amplitude/analytics-connector" "^1.4.5"
+    "@amplitude/analytics-core" "^0.13.0"
+    "@amplitude/analytics-types" "^0.18.0"
+    "tslib" "^2.4.1"
+
+"@amplitude/analytics-connector@^1.4.5":
+  "integrity" "sha512-XjkFmVnJuPcRAQyPDs3LR3uam0jjDzBsT8ZABlWoV3iypRY7d+gs3ijDn2c4UU5XIjsR9GqzHCbZG3w7T+t6tQ=="
+  "resolved" "https://registry.npmjs.org/@amplitude/analytics-connector/-/analytics-connector-1.4.7.tgz"
+  "version" "1.4.7"
+  dependencies:
+    "@amplitude/ua-parser-js" "^0.7.31"
+
+"@amplitude/analytics-core@^0.13.0":
+  "integrity" "sha512-L2fdqMHF1cSllJuiji8Bd42/4gCxcsut3Dvcbsm1cQg2yPdpqevrmfbuaSMT/8p1zfPO3OrjUhys51rHcPlFmw=="
+  "resolved" "https://registry.npmjs.org/@amplitude/analytics-core/-/analytics-core-0.13.0.tgz"
+  "version" "0.13.0"
+  dependencies:
+    "@amplitude/analytics-types" "^0.18.0"
+    "tslib" "^2.4.1"
+
+"@amplitude/analytics-types@^0.18.0":
+  "integrity" "sha512-y4iWokq0BYBgi4B78Oi4Kjut4cQJlG4wE8vGQO9VWcEpPTwkSRKD4RkeNPPFMDo38J91ow+y9nZOV49lbwQllQ=="
+  "resolved" "https://registry.npmjs.org/@amplitude/analytics-types/-/analytics-types-0.18.0.tgz"
+  "version" "0.18.0"
+
+"@amplitude/plugin-page-view-tracking-browser@^0.7.0":
+  "integrity" "sha512-K3rorUu8FJ8p8PfbTmXonTpwUrpVlssAbS1xai2P2IRLsWJ6lJa1tFEpzfRFn1DILykb7iwVPLMxaEZGMbf38Q=="
+  "resolved" "https://registry.npmjs.org/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-0.7.0.tgz"
+  "version" "0.7.0"
+  dependencies:
+    "@amplitude/analytics-client-common" "^0.6.3"
+    "@amplitude/analytics-types" "^0.18.0"
+    "tslib" "^2.4.1"
+
+"@amplitude/plugin-web-attribution-browser@^0.6.4":
+  "integrity" "sha512-pZghO6FnC5mtA5xbhyP6iZkL30oGXMQe2N6qhL8kuHcP848Xdw+U7CaJ/E4gQ0vuohplZR0fnSFXPhy3xMJiGQ=="
+  "resolved" "https://registry.npmjs.org/@amplitude/plugin-web-attribution-browser/-/plugin-web-attribution-browser-0.6.4.tgz"
+  "version" "0.6.4"
+  dependencies:
+    "@amplitude/analytics-client-common" "^0.6.3"
+    "@amplitude/analytics-types" "^0.18.0"
+    "tslib" "^2.4.1"
+
+"@amplitude/ua-parser-js@^0.7.31":
+  "integrity" "sha512-wKEtVR4vXuPT9cVEIJkYWnlF++Gx3BdLatPBM+SZ1ztVIvnhdGBZR/mn9x/PzyrMcRlZmyi6L56I2J3doVBnjA=="
+  "resolved" "https://registry.npmjs.org/@amplitude/ua-parser-js/-/ua-parser-js-0.7.33.tgz"
+  "version" "0.7.33"
+
 "@ampproject/remapping@^2.1.0":
   "integrity" "sha512-qRmjj8nj9qmLTQXXmaR1cck3UXSRMPrbsLJAasZpF+t3riI71BXed5ebIOYwQntykeZuhjsdweEc9BxH5Jc26w=="
   "resolved" "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.2.0.tgz"
@@ -4560,7 +4626,7 @@
   "resolved" "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
   "version" "0.0.3"
 
-"tslib@^2.1.0":
+"tslib@^2.1.0", "tslib@^2.4.1":
   "integrity" "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
   "version" "2.4.1"
