@@ -23,6 +23,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/vue-fontawesome": "^3.0.2",
     "@notionhq/client": "^2.2.3",
+    "@tawk.to/tawk-messenger-vue-3": "^1.0.1",
     "aos": "^3.0.0-beta.6",
     "vue3-markdown-it": "^1.0.10"
   },

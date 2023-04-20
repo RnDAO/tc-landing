@@ -626,6 +626,13 @@
     "estree-walker" "^2.0.2"
     "picomatch" "^2.3.1"
 
+"@tawk.to/tawk-messenger-vue-3@^1.0.1":
+  "integrity" "sha512-vmZ/ZqEphpN1wCf6s7JOPgyXe69tsjSivyVJfw8fKg86JdOIwIIE6ooMON8QNFvF9mX+ndxqQlCcuI+8ofELnQ=="
+  "resolved" "https://registry.npmjs.org/@tawk.to/tawk-messenger-vue-3/-/tawk-messenger-vue-3-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "vue" "^3.2.31"
+
 "@trysound/sax@0.2.0":
   "integrity" "sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA=="
   "resolved" "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
@@ -4816,7 +4823,7 @@
   dependencies:
     "@vue/devtools-api" "^6.4.5"
 
-"vue@^3.0.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.45", "vue@>= 3.0.0 < 4", "vue@>=2.7 || >=3", "vue@3.2.45":
+"vue@^3.0.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.31", "vue@^3.2.45", "vue@>= 3.0.0 < 4", "vue@>=2.7 || >=3", "vue@3.2.45":
   "integrity" "sha512-9Nx/Mg2b2xWlXykmCwiTUCWHbWIj53bnkizBxKai1g61f2Xit700A1ljowpTIM11e3uipOeiPcSqnmBg6gyiaA=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.45.tgz"
   "version" "3.2.45"
